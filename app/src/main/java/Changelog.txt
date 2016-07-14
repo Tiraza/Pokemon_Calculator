@@ -1,0 +1,18 @@
+PROJECT : Pokemon Calculator
+AUTHOR : TheDinoSlayer
+CURRENT VERSION : V 0.0.1
+
+V 0.0.1 :
+14/07/2016
+- Create models classes :
+    - Pokemon
+    - Ability
+    - Attack
+- Create models enum :
+    - Nature
+    - Types
+
+TODO :
+- Create Github project
+- Create data-xml files
+- Create controllers classes to parse xml files into models classes
