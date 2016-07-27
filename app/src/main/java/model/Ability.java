@@ -12,8 +12,8 @@ public class Ability {
     //Constructor
     public Ability() {
         this.id = 0;
-        this.name = "";
-        this.effect = "";
+        this.name = "Cacophony";
+        this.effect = "Avoids sound-based moves.";
     }
 
     public Ability(short id, String name, String effect) {

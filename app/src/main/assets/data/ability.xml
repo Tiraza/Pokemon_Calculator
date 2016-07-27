@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<abilities>
+    <ability id="1">
+        <name>Stench</name>
+        <effect>The stench may cause the target to flinch.</effect>
+    </ability>
+    <ability id="2">
+        <name>Drizzle</name>
+        <effect>The Pokémon makes it rain when it enters a battle.</effect>
+    </ability>
+    <ability id="3">
+        <name>Speed Boost</name>
+        <effect>Its Speed stat is gradually boosted.</effect>
+    </ability>
+    <ability id="4">
+        <name>Battle Armor</name>
+        <effect>Protects the Pokémon from critical hits.</effect>
+    </ability>
+    <ability id="5">
+        <name>Sturdy</name>
+        <effect>It cannot be knocked out with one hit.</effect>
+    </ability>
+    <ability id="6">
+        <name>Damp</name>
+        <effect>Prevents the use of self-destructing moves.</effect>
+    </ability>
+    <ability id="7">
+        <name>Limber</name>
+        <effect>Protects the Pokémon from paralysis.</effect>
+    </ability>
+    <ability id="8">
+        <name>Sand Veil</name>
+        <effect>Boosts the Pokémon's evasion in a sandstorm.</effect>
+    </ability>
+    <ability id="9">
+        <name>Static</name>
+        <effect>Contact with the Pokémon may cause the paralysis.</effect>
+    </ability>
+    <ability id="10">
+        <name>Volt Absorb</name>
+        <effect>Restores HP if hit by an Electric-type move.</effect>
+    </ability>
+    <ability id="11">
+        <name>Water Absorb</name>
+        <effect>Restores HP if hit by an Water-type move.</effect>
+    </ability>
+    <ability id="12">
+        <name>Oblivious</name>
+        <effect>Keeps the Pokémon from being infatuated or falling for taunts.</effect>
+    </ability>
+    <ability id="13">
+        <name>Cloud Nine</name>
+        <effect>Eliminates the effects of weather.</effect>
+    </ability>
+</abilities>

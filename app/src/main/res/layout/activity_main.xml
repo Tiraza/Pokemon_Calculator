@@ -10,7 +10,9 @@
     tools:context="com.example.dinoslayer.pokemon_calculataor.MainActivity">
 
     <TextView
+        android:id="@+id/display"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:focusableInTouchMode="true"
+        android:text="" />
 </RelativeLayout>

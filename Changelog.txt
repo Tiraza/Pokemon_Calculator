@@ -1,6 +1,6 @@
 PROJECT : Pokemon Calculator
 AUTHOR : TheDinoSlayer
-CURRENT VERSION : V 0.0.1
+CURRENT VERSION : V 0.1.1
 
 V 0.0.1 :
 14/07/2016
@@ -12,7 +12,15 @@ V 0.0.1 :
     - Nature
     - Types
 
+V 0.1.1 :
+28/07/2016
+- Create Ability-XML file
+- Create Ability-XML-parser class
+- Test this parser class :
+    - WORKS
+
 TODO :
-- Create Github project
+- Complete Ability-XML file
+- Complete the Ability-parser class to get id what we want
 - Create data-xml files
 - Create controllers classes to parse xml files into models classes
