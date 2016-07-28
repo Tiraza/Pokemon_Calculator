@@ -7,8 +7,10 @@ import android.widget.TextView;
 
 import java.io.InputStream;
 
-import controller.XMLParserAbility;
-import model.Ability;
+//import controller.XMLParserAbility;
+import controller.XMLParserAttack;
+//import model.Ability;
+import model.Attack;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,20 +22,19 @@ public class MainActivity extends AppCompatActivity {
         display.setMovementMethod(new ScrollingMovementMethod());
 
         try {
-            InputStream is = getApplicationContext().getAssets().open("data/ability.xml");
+            InputStream is = getApplicationContext().getAssets().open("data/attack.xml");
 
-            XMLParserAbility parserAbility = new XMLParserAbility(is);
-            short []id = new short[2];
-            id[0] = 195;
-            id[1] = 34;
-            parserAbility.parseXML(id);
+            XMLParserAttack parserAttack = new XMLParserAttack(is);
+            parserAttack.parseXML();
 
-            for (Ability a : parserAbility.getAbilities()) {
+            for (Attack a : parserAttack.getAttacks()) {
                 String content = "";
 
                 content += "ID : " + a.getId() + "\n";
                 content += "Name : " + a.getName() + "\n";
-                content += "Effect : " + a.getEffect() + "\n\n";
+                content += "Type : " + a.getType().getDisplay() + "\n";
+                content += "Power : " + a.getPower() + "\n";
+                content += "Category : " + a.getCategory().getDisplay() + "\n\n";
 
                 display.setText(display.getText() + content);
             }

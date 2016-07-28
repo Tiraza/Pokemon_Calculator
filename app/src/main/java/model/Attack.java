@@ -9,7 +9,7 @@ public class Attack {
     private String name;
     private Types type;
     private Byte power;
-    private Boolean category;
+    private Category category;
 
     //Constructor
     public Attack() {
@@ -17,10 +17,10 @@ public class Attack {
         this.name = "<No Move>";
         this.type = Types.NORMAL;
         this.power = 0;
-        this.category = false;
+        this.category = Category.PHYSICAL;
     }
 
-    public Attack(short id, String name, Types type, Byte power, Boolean category) {
+    public Attack(short id, String name, Types type, Byte power, Category category) {
         this.id = id;
         this.name = name;
         this.type = type;
@@ -32,13 +32,25 @@ public class Attack {
     public short getId() { return id; }
     public String getName() { return this.name; }
     public Types getType() { return type; }
-    public Byte getPower() { return power; }
-    public Boolean getCategory() { return category; }
+    public Category getCategory() { return category; }
+    public int getPower() {
+        if(this.power >= 0 && this.power <= 127) {
+            return this.power;
+        } else {
+            return (this.power + 0xff);
+        }
+    }
 
     //Setter
     public void setId(short id) { this.id = id; }
     public void setName(String name) { this.name = name; }
     public void setType(Types type) { this.type = type; }
-    public void setPower(Byte power) { this.power = power; }
-    public void setCategory(Boolean category) { this.category = category; }
+    public void setCategory(Category category) { this.category = category; }
+    public void setPower(int power) {
+        if(power >= 0 && power <= 127) {
+            this.power = (byte) power;
+        } else if(power >= 128 && power <= 255) {
+            this.power = (byte) (power - 0xff);
+        }
+    }
 }

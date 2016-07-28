@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<attacks>
+    <attack id="1">
+        <name>Pound</name>
+        <type>Normal</type>
+        <power value="40"/>
+        <category>Physical</category>
+    </attack>
+    <attack id ="2">
+        <name>Karate Chop</name>
+        <type>Fight</type>
+        <power value="50"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="63">
+        <name>Hyper Beam</name>
+        <type>Normal</type>
+        <power value="150"/>
+        <category>Special</category>
+    </attack>
+</attacks>

@@ -6,9 +6,7 @@ import org.xmlpull.v1.XmlPullParserFactory;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import model.Ability;
@@ -20,10 +18,6 @@ public class XMLParserAbility {
     private List<Ability> abilities;
     private Ability ability;
     private XmlPullParser parser;
-
-    public List<Ability> getAbilities() {
-        return abilities;
-    }
 
     public XMLParserAbility(InputStream is) throws XmlPullParserException, IOException {
             this.abilities = new ArrayList<>();
@@ -70,8 +64,13 @@ public class XMLParserAbility {
                     if(name.equalsIgnoreCase("ability") && this.ability != null) {
                         this.abilities.add(ability);
                     }
+                    break;
             }
-            event = parser.next();
+            event = this.parser.next();
         }
+    }
+
+    public List<Ability> getAbilities() {
+        return abilities;
     }
 }

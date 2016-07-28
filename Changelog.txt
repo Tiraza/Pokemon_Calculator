@@ -1,6 +1,6 @@
 PROJECT : Pokemon Calculator
 AUTHOR : TheDinoSlayer
-CURRENT VERSION : V 0.1.2
+CURRENT VERSION : V 0.2.1
 
 V 0.0.1 :
 14/07/2016
@@ -27,6 +27,14 @@ V 0.1.2 :
     - Abilities with the correct id what we want are displayed
     - Abilities with a unknown id are ignored
 
+V 0.2.1 :
+28/07/2016
+- Create Attack-XML file
+- Create Attack-XML-parser class
+- Test this parser class :
+    - All attacks are displayed correctly
+
 TODO :
-- Create data-xml files (Attack, Pokémon)
+- Complete Attack-XML file
+- Create data-xml files (Pokémon, Items)
 - Create controllers classes to parse xml files into models classes
