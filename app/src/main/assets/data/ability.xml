@@ -53,4 +53,716 @@
         <name>Cloud Nine</name>
         <effect>Eliminates the effects of weather.</effect>
     </ability>
+    <ability id="14">
+        <name>Compound Eyes</name>
+        <effect>Boosts the Pokémon's accuracy.</effect>
+    </ability>
+    <ability id="15">
+        <name>Insomnia</name>
+        <effect>Prevents the Pokémon from falling asleep.</effect>
+    </ability>
+    <ability id="16">
+        <name>Color Change</name>
+        <effect>The Pokémon's type becomes the type of the move used on it.</effect>
+    </ability>
+    <ability id="17">
+        <name>Immunity</name>
+        <effect>Prevents the Pokémon from getting poisoned.</effect>
+    </ability>
+    <ability id="18">
+        <name>Flash Fire</name>
+        <effect>Powers up the Pokémon's Fire-type moves if it's hit by one.</effect>
+    </ability>
+    <ability id="19">
+        <name>Shield Dust</name>
+        <effect>Blocks the additional effects on attacks taken.</effect>
+    </ability>
+    <ability id="20">
+        <name>Own Tempo</name>
+        <effect>Prevents the Pokémon from being confused.</effect>
+    </ability>
+    <ability id="21">
+        <name>Suction Cups</name>
+        <effect>Negates all moves and items that forces switching out.</effect>
+    </ability>
+    <ability id="22">
+        <name>Intimidate</name>
+        <effect>Lowers the opposing Pokémon's Attack stat.</effect>
+    </ability>
+    <ability id="23">
+        <name>Shadow Tag</name>
+        <effect>Prevents opposing Pokémon from escaping.</effect>
+    </ability>
+    <ability id="24">
+        <name>Rough Skin</name>
+        <effect>Inflicts damage to the attacker on contact.</effect>
+    </ability>
+    <ability id="25">
+        <name>Wonder Guard</name>
+        <effect>Only supereffective moves will hit.</effect>
+    </ability>
+    <ability id="26">
+        <name>Levitate</name>
+        <effect>Gives full immunity to all Ground-type moves.</effect>
+    </ability>
+    <ability id="27">
+        <name>Effect Spore</name>
+        <effect>Contact may poison or cause paralysis or sleep.</effect>
+    </ability>
+    <ability id="28">
+        <name>Synchronize</name>
+        <effect>Passes poison, paralyze, or burn to the Pokémon that inflicted it.</effect>
+    </ability>
+    <ability id="29">
+        <name>Clear Body</name>
+        <effect>Prevents other Pokémon from lowering its stats.</effect>
+    </ability>
+    <ability id="30">
+        <name>Natural Cure</name>
+        <effect>All status condition heal when the Pokémon switches out.</effect>
+    </ability>
+    <ability id="31">
+        <name>Lightning Rod</name>
+        <effect>Draws in all Electric-type moves to boost its Sp. Atk stat.</effect>
+    </ability>
+    <ability id="32">
+        <name>Serene Grace</name>
+        <effect>Boosts the likelihood of additional effects occurring.</effect>
+    </ability>
+    <ability id="33">
+        <name>Swift Swim</name>
+        <effect>Boosts the Pokémon's Speed stat in rain.</effect>
+    </ability>
+    <ability id="34">
+        <name>Chlorophyll</name>
+        <effect>Boosts the Pokémon's Speed stat in sunshine.</effect>
+    </ability>
+    <ability id="35">
+        <name>Illuminate</name>
+        <effect>Raises the likelihood of meeting wild Pokémon.</effect>
+    </ability>
+    <ability id="36">
+        <name>Trace</name>
+        <effect>The Pokémon copies an opposing Pokémon's ability.</effect>
+    </ability>
+    <ability id="37">
+        <name>Huge Power</name>
+        <effect>Boosts the Pokémon's Attack stat.</effect>
+    </ability>
+    <ability id="38">
+        <name>Poison Point</name>
+        <effect>Contact with the Pokémon may poison the attacker.</effect>
+    </ability>
+    <ability id="39">
+        <name>Inner Focus</name>
+        <effect>Protect the Pokémon from flinching.</effect>
+    </ability>
+    <ability id="40">
+        <name>Magma Armor</name>
+        <effect>Prevents the Pokémon from becoming frozen.</effect>
+    </ability>
+    <ability id="41">
+        <name>Water Veil</name>
+        <effect>Prevents the Pokémon from getting a burn.</effect>
+    </ability>
+    <ability id="42">
+        <name>Magnet Pull</name>
+        <effect>Prevents Steel-type Pokémon from escaping.</effect>
+    </ability>
+    <ability id="43">
+        <name>Soundproof</name>
+        <effect>Gives full immunity to all sound-based moves.</effect>
+    </ability>
+    <ability id="44">
+        <name>Rain Dish</name>
+        <effect>The Pokémon gradually regains HP in rain.</effect>
+    </ability>
+    <ability id="45">
+        <name>Sand Stream</name>
+        <effect>The Pokémon summons a sandstorm in battle.</effect>
+    </ability>
+    <ability id="46">
+        <name>Pressure</name>
+        <effect>The Pokémon raises opposing Pokémon's PP usage.</effect>
+    </ability>
+    <ability id="47">
+        <name>Thick Fat</name>
+        <effect>Boosts resistance to Fire- and Ice-type moves.</effect>
+    </ability>
+    <ability id="48">
+        <name>Early Bird</name>
+        <effect>The Pokémon awakens quickly from sleep.</effect>
+    </ability>
+    <ability id="49">
+        <name>Flame Body</name>
+        <effect>Contact with the Pokémon may burn the attacker.</effect>
+    </ability>
+    <ability id="50">
+        <name>Run Away</name>
+        <effect>Enables a sure getaway from wild Pokémon.</effect>
+    </ability>
+    <ability id="51">
+        <name>Keen Eye</name>
+        <effect>Prevents other Pokémon from lowering accuracy.</effect>
+    </ability>
+    <ability id="52">
+        <name>Hyper Cutter</name>
+        <effect>Prevents other Pokémon from lowering its Attack stat.</effect>
+    </ability>
+    <ability id="53">
+        <name>Pickup</name>
+        <effect>The Pokémon may pick up items.</effect>
+    </ability>
+    <ability id="54">
+        <name>Truant</name>
+        <effect>The Pokémon can't attack on consecutive turns.</effect>
+    </ability>
+    <ability id="55">
+        <name>Hustle</name>
+        <effect>Boost the Attack stat, but lowers accuracy.</effect>
+    </ability>
+    <ability id="56">
+        <name>Cute Charm</name>
+        <effect>Contact with the Pokémon may cause infatuation.</effect>
+    </ability>
+    <ability id="57">
+        <name>Plus</name>
+        <effect>Boosts the Sp. Atk stat if another Pokémon has Plus or Minus.</effect>
+    </ability>
+    <ability id="58">
+        <name>Minus</name>
+        <effect>Boosts the Sp. Atk stat if another Pokémon has Plus or Minus.</effect>
+    </ability>
+    <ability id="59">
+        <name>Forecast</name>
+        <effect>Castform transforms with the weather.</effect>
+    </ability>
+    <ability id="60">
+        <name>Sticky Hold</name>
+        <effect>Protects the Pokémon from item theft.</effect>
+    </ability>
+    <ability id="61">
+        <name>Shed Skin</name>
+        <effect>The Pokémon may heal its own status conditions.</effect>
+    </ability>
+    <ability id="62">
+        <name>Guts</name>
+        <effect>Boosts the Attack stat if the Pokémon has a status condition.</effect>
+    </ability>
+    <ability id="63">
+        <name>Marvel Scale</name>
+        <effect>Boosts the Defense stat if the Pokémon has a status condition.</effect>
+    </ability>
+    <ability id="64">
+        <name>Liquid Ooze</name>
+        <effect>Damages attackers using any draining move.</effect>
+    </ability>
+    <ability id="65">
+        <name>Overgrow</name>
+        <effect>Powers up Grass-type moves when the Pokémon is in trouble.</effect>
+    </ability>
+    <ability id="66">
+        <name>Blaze</name>
+        <effect>Powers up Fire-type moves when the Pokémon is in trouble.</effect>
+    </ability>
+    <ability id="67">
+        <name>Torrent</name>
+        <effect>Powers up Water-type moves when the Pokémon is in trouble.</effect>
+    </ability>
+    <ability id="68">
+        <name>Swarm</name>
+        <effect>Powers up Bug-type moves when the Pokémon is in trouble.</effect>
+    </ability>
+    <ability id="69">
+        <name>Rock Head</name>
+        <effect>Protects the Pokémon from recoil damage.</effect>
+    </ability>
+    <ability id="70">
+        <name>Drought</name>
+        <effect>Turns the sunlight harsh when the Pokémon enters a battle.</effect>
+    </ability>
+    <ability id="71">
+        <name>Arena Trap</name>
+        <effect>Prevents opposing Pokémon from feeling.</effect>
+    </ability>
+    <ability id="72">
+        <name>Vital Spirit</name>
+        <effect>Prevents the Pokémon from falling asleep.</effect>
+    </ability>
+    <ability id="73">
+        <name>White Smoke</name>
+        <effect>Prevents other Pokémon from lowering its stats.</effect>
+    </ability>
+    <ability id="74">
+        <name>Pure Power</name>
+        <effect>Boosts the Pokémon's Attack stat.</effect>
+    </ability>
+    <ability id="75">
+        <name>Shell Armor</name>
+        <effect>Protects the Pokémon from critical hits.</effect>
+    </ability>
+    <ability id="76">
+        <name>Air Lock</name>
+        <effect>Eliminates the effect of weather.</effect>
+    </ability>
+    <ability id="77">
+        <name>Tangled Feet</name>
+        <effect>Raises evasion if the Pokémon is confused.</effect>
+    </ability>
+    <ability id="78">
+        <name>Motor Drive</name>
+        <effect>Boosts the Speed stat when it's hit by an Electric-type move.</effect>
+    </ability>
+    <ability id="79">
+        <name>Rivalry</name>
+        <effect>Deals more damage to Pokémon of the same gender.</effect>
+    </ability>
+    <ability id="80">
+        <name>Steadfast</name>
+        <effect>Boosts the Speed stat each time the Pokémon flinches.</effect>
+    </ability>
+    <ability id="81">
+        <name>Snow Cloak</name>
+        <effect>Boost evasion in a hailstorm.</effect>
+    </ability>
+    <ability id="82">
+        <name>Gluttony</name>
+        <effect>Makes the Pokémon use a held Berry earlier than usual.</effect>
+    </ability>
+    <ability id="83">
+        <name>Anger Point</name>
+        <effect>Maxes the Attack stat after the Pokémon takes a critical hit.</effect>
+    </ability>
+    <ability id="84">
+        <name>Unburden</name>
+        <effect>Boosts the Speed stat if its held item is used or lost.</effect>
+    </ability>
+    <ability id="85">
+        <name>Heatproof</name>
+        <effect>Weakens the power of Fire-type moves.</effect>
+    </ability>
+    <ability id="86">
+        <name>Simple</name>
+        <effect>The Pokémon is prone to wild stat changes.</effect>
+    </ability>
+    <ability id="87">
+        <name>Dry Skin</name>
+        <effect>Reduces HP if it's hot. Water restores HP.</effect>
+    </ability>
+    <ability id="88">
+        <name>Download</name>
+        <effect>Adjusts power based on an opposing Pokémon's stats.</effect>
+    </ability>
+    <ability id="89">
+        <name>Iron Fist</name>
+        <effect>Powers up punching moves.</effect>
+    </ability>
+    <ability id="90">
+        <name>Poison Heal</name>
+        <effect>Restores HP if the Pokémon is poisoned.</effect>
+    </ability>
+    <ability id="91">
+        <name>Adaptability</name>
+        <effect>Powers up moves of the same type as the Pokémon.</effect>
+    </ability>
+    <ability id="92">
+        <name>Skill Link</name>
+        <effect>Increses the number of time multi-strike moves hit.</effect>
+    </ability>
+    <ability id="93">
+        <name>Hydration</name>
+        <effect>Heal status conditions if it's raining.</effect>
+    </ability>
+    <ability id="94">
+        <name>Solar Power</name>
+        <effect>Boosts the Sp. Atk stat in sunny weather, but HP decreases.</effect>
+    </ability>
+    <ability id="95">
+        <name>Quick Feet</name>
+        <effect>Boosts the Speed stat if the Pokémon has a status.</effect>
+    </ability>
+    <ability id="96">
+        <name>Normalize</name>
+        <effect>All the Pokémon's move become Normal type.</effect>
+    </ability>
+    <ability id="97">
+        <name>Sniper</name>
+        <effect>Powers up moves if they become critical hits.</effect>
+    </ability>
+    <ability id="98">
+        <name>Magic Guard</name>
+        <effect>The Pokémon only takes damage from attacks.</effect>
+    </ability>
+    <ability id="99">
+        <name>No Guard</name>
+        <effect>Ensures attacks by or against the Pokémon land.</effect>
+    </ability>
+    <ability id="100">
+        <name>Stall</name>
+        <effect>The Pokémon moves after all other Pokémon do.</effect>
+    </ability>
+    <ability id="101">
+        <name>Technician</name>
+        <effect>Powers up the Pokémon's weaker moves.</effect>
+    </ability>
+    <ability id="102">
+        <name>Leaf Guard</name>
+        <effect>Prevents status conditions in sunny weather.</effect>
+    </ability>
+    <ability id="103">
+        <name>Klutz</name>
+        <effect>The Pokémon can't use any held items.</effect>
+    </ability>
+    <ability id="104">
+        <name>Mold Breaker</name>
+        <effect>Moves can be used on the target regardless of its Abilities.</effect>
+    </ability>
+    <ability id="105">
+        <name>Super Luck</name>
+        <effect>Boosts the critical-hit ratios of moves.</effect>
+    </ability>
+    <ability id="106">
+        <name>Aftermath</name>
+        <effect>Damages the attacker landing the fishing hit.</effect>
+    </ability>
+    <ability id="107">
+        <name>Anticipation</name>
+        <effect>Senses an opposing Pokémon's dangerous moves.</effect>
+    </ability>
+    <ability id="108">
+        <name>Forewarn</name>
+        <effect>Determines what moves an opposing Pokémon has.</effect>
+    </ability>
+    <ability id="109">
+        <name>Unaware</name>
+        <effect>Ignores the opposing Pokémon's stat changes.</effect>
+    </ability>
+    <ability id="110">
+        <name>Tinted Lens</name>
+        <effect>Powers up "not very effective" moves.</effect>
+    </ability>
+    <ability id="111">
+        <name>Filter</name>
+        <effect>Reduces damage from supereffective attacks.</effect>
+    </ability>
+    <ability id="112">
+        <name>Slow Start</name>
+        <effect>Temporarily halves the Pokémon's Attack and Speed stats.</effect>
+    </ability>
+    <ability id="113">
+        <name>Scrappy</name>
+        <effect>Makes Normal- and Fighting-type moves hit Ghost-type Pokémon.</effect>
+    </ability>
+    <ability id="114">
+        <name>Storm Drain</name>
+        <effect>Draws in all Water-type moves to boost its Sp. Atk stat.</effect>
+    </ability>
+    <ability id="115">
+        <name>Ice Body</name>
+        <effect>The Pokémon gradually regains HP in a hailstorm.</effect>
+    </ability>
+    <ability id="116">
+        <name>Solid Rock</name>
+        <effect>Reduces damage from supereffecive attacks.</effect>
+    </ability>
+    <ability id="117">
+        <name>Snow Warning</name>
+        <effect>The Pokémon summons a hailstorm when it enters a battle.</effect>
+    </ability>
+    <ability id="118">
+        <name>Honey Gather</name>
+        <effect>The Pokémon may gather Honey from somewhere.</effect>
+    </ability>
+    <ability id="119">
+        <name>Frisk</name>
+        <effect>The Pokémon can check an opposing Pokémon's held item.</effect>
+    </ability>
+    <ability id="120">
+        <name>Reckless</name>
+        <effect>Powers up moves that have recoil damage.</effect>
+    </ability>
+    <ability id="121">
+        <name>Multitype</name>
+        <effect>Changes the Pokémon's type to match the Plate it holds.</effect>
+    </ability>
+    <ability id="122">
+        <name>Flower Gift</name>
+        <effect>Powers up party Pokémon when it's sunny.</effect>
+    </ability>
+    <ability id="123">
+        <name>Bad Dreams</name>
+        <effect>Reduces the HP of sleeping opposing Pokémon.</effect>
+    </ability>
+    <ability id="124">
+        <name>Pickpocket</name>
+        <effect>Steals an item from an attacker that made direct contact.</effect>
+    </ability>
+    <ability id="125">
+        <name>Sheer Force</name>
+        <effect>Removes additional effects to increase move damage.</effect>
+    </ability>
+    <ability id="126">
+        <name>Contrary</name>
+        <effect>Makes stat changes have an opposite effect.</effect>
+    </ability>
+    <ability id="127">
+        <name>Unnerve</name>
+        <effect>Unnerves opposing Pokémon and makes them unable to eat Berries.</effect>
+    </ability>
+    <ability id="128">
+        <name>Defiant</name>
+        <effect>Boosts the Pokémon's Attack stat when its stat are lowered.</effect>
+    </ability>
+    <ability id="129">
+        <name>Defeatist</name>
+        <effect>Lowers stats when HP becomes half or less.</effect>
+    </ability>
+    <ability id="130">
+        <name>Cursed Body</name>
+        <effect>May disable a move used on the Pokémon.</effect>
+    </ability>
+    <ability id="131">
+        <name>Healer</name>
+        <effect>Sometimes heals an ally's status condition.</effect>
+    </ability>
+    <ability id="132">
+        <name>Friend Guard</name>
+        <effect>Reduce damage done to allies.</effect>
+    </ability>
+    <ability id="133">
+        <name>Weak Armor</name>
+        <effect>Physical attacks lower its Defense stat and raise its Speed stat.</effect>
+    </ability>
+    <ability id="134">
+        <name>Heavy Metal</name>
+        <effect>Doubles the Pokémon's weight.</effect>
+    </ability>
+    <ability id="135">
+        <name>Light Metal</name>
+        <effect>Halves the Pokémon's weight.</effect>
+    </ability>
+    <ability id="136">
+        <name>Multiscale</name>
+        <effect>Reduces damage the Pokémon takes when its HP is full.</effect>
+    </ability>
+    <ability id="137">
+        <name>Toxic Boost</name>
+        <effect>Powers up physical attacks when the Pokémon is poisoned.</effect>
+    </ability>
+    <ability id="138">
+        <name>Flare Boost</name>
+        <effect>Powers up special attacks when the Pokémon is burned.</effect>
+    </ability>
+    <ability id="139">
+        <name>Harvest</name>
+        <effect>May create another Berry after one is used.</effect>
+    </ability>
+    <ability id="140">
+        <name>Telepathy</name>
+        <effect>Anticipates an ally's attack and dodges it.</effect>
+    </ability>
+    <ability id="141">
+        <name>Moody</name>
+        <effect>Raises one stat and lowers another.</effect>
+    </ability>
+    <ability id="142">
+        <name>Overcoat</name>
+        <effect>Protects the Pokémon from things like sand, hail and powder.</effect>
+    </ability>
+    <ability id="143">
+        <name>Poison Touch</name>
+        <effect>May poison a target when the Pokémon makes contact.</effect>
+    </ability>
+    <ability id="144">
+        <name>Regenerator</name>
+        <effect>Restores a little HP when withdrawn from battle.</effect>
+    </ability>
+    <ability id="145">
+        <name>Big Pecks</name>
+        <effect>Protects the Pokémon from Defense-lowering attacks.</effect>
+    </ability>
+    <ability id="146">
+        <name>Sand Rush</name>
+        <effect>Boosts the Pokémon's Speed stat in a sandstorm.</effect>
+    </ability>
+    <ability id="147">
+        <name>Wonder Skin</name>
+        <effect>Makes status moves more likely to miss.</effect>
+    </ability>
+    <ability id="148">
+        <name>Analytic</name>
+        <effect>Boosts move power when the Pokémon moves after the target.</effect>
+    </ability>
+    <ability id="149">
+        <name>Illusion</name>
+        <effect>Comes out disguised as the Pokémon in the party's last spot.</effect>
+    </ability>
+    <ability id="150">
+        <name>Imposter</name>
+        <effect>The Pokémon transforms itself into the Pokémon it's facing.</effect>
+    </ability>
+    <ability id="151">
+        <name>Infiltrator</name>
+        <effect>Passes through the opposing Pokémon's barrier and strikes.</effect>
+    </ability>
+    <ability id="152">
+        <name>Mummy</name>
+        <effect>Contact with the Pokémon spreads this Ability.</effect>
+    </ability>
+    <ability id="153">
+        <name>Moxie</name>
+        <effect>Boosts the Attack stat after knocking out any Pokémon.</effect>
+    </ability>
+    <ability id="154">
+        <name>Justified</name>
+        <effect>Boosts the Attack stat when it's hit by a Dark-type moves.</effect>
+    </ability>
+    <ability id="155">
+        <name>Rattled</name>
+        <effect>Some move types scare it and boost its Speed stat.</effect>
+    </ability>
+    <ability id="156">
+        <name>Magic Bounce</name>
+        <effect>Reflect status moves.</effect>
+    </ability>
+    <ability id="157">
+        <name>Sap Sipper</name>
+        <effect>Boosts the Attack stat when hit by a Grass-type move.</effect>
+    </ability>
+    <ability id="158">
+        <name>Prankster</name>
+        <effect>Gives priority to a status move.</effect>
+    </ability>
+    <ability id="159">
+        <name>Sand Force</name>
+        <effect>Boost certain moves' power in a sandstorm.</effect>
+    </ability>
+    <ability id="160">
+        <name>Iron Barbs</name>
+        <effect>Inflicts damage to the attacker on contact.</effect>
+    </ability>
+    <ability id="161">
+        <name>Zen Mode</name>
+        <effect>Changes the Pokémon's shape when HP is half or less.</effect>
+    </ability>
+    <ability id="162">
+        <name>Victory Star</name>
+        <effect>Boosts the accuracy of its allies and itself.</effect>
+    </ability>
+    <ability id="163">
+        <name>Turboblaze</name>
+        <effect>Moves can be used on the target regardless of its Abilities.</effect>
+    </ability>
+    <ability id="164">
+        <name>Teravolt</name>
+        <effect>Moves can be used on the target regardless of its Abilities.</effect>
+    </ability>
+    <ability id="165">
+        <name>Aroma Veil</name>
+        <effect>Protects allies from attacks that limit their move choices.</effect>
+    </ability>
+    <ability id="166">
+        <name>Flower Veil</name>
+        <effect>Prevents lowering of ally Grass-type Pokémon's stats.</effect>
+    </ability>
+    <ability id="167">
+        <name>Cheek Pouch</name>
+        <effect>Restores HP as well when the Pokémon eats a Berry.</effect>
+    </ability>
+    <ability id="168">
+        <name>Protean</name>
+        <effect>Changes the Pokémon's type to the type of the move it's using.</effect>
+    </ability>
+    <ability id="169">
+        <name>Fur Coat</name>
+        <effect>Halves damage from physical moves.</effect>
+    </ability>
+    <ability id="170">
+        <name>Magician</name>
+        <effect>The Pokémon steals the held item of a Pokémon it hits with a move.</effect>
+    </ability>
+    <ability id="171">
+        <name>Bulletproof</name>
+        <effect>Protects the Pokémon from some ball and bombs moves.</effect>
+    </ability>
+    <ability id="172">
+        <name>Competitive</name>
+        <effect>Boosts the Sp. Atk stat when a stat is lowered.</effect>
+    </ability>
+    <ability id="173">
+        <name>Strong Jaw</name>
+        <effect>The Pokémon's strong jaw gives it tremendous biting power.</effect>
+    </ability>
+    <ability id="174">
+        <name>Refrigerate</name>
+        <effect>Normal-type moves become Ice-type moves.</effect>
+    </ability>
+    <ability id="175">
+        <name>Sweet Veil</name>
+        <effect>Prevents itself and ally Pokémon from falling asleep.</effect>
+    </ability>
+    <ability id="176">
+        <name>Stance Change</name>
+        <effect>The Pokémon changes from depending on how it battles.</effect>
+    </ability>
+    <ability id="177">
+        <name>Gale Wings</name>
+        <effect>Gives priority to Flying-type moves.</effect>
+    </ability>
+    <ability id="178">
+        <name>Mega Launcher</name>
+        <effect>Powers up aura and pulse moves.</effect>
+    </ability>
+    <ability id="179">
+        <name>Grass Pelt</name>
+        <effect>Boosts the Defense stat in Grassy Terrain.</effect>
+    </ability>
+    <ability id="180">
+        <name>Symbiosis</name>
+        <effect>The Pokémon can pass an item to an ally.</effect>
+    </ability>
+    <ability id="181">
+        <name>Tough Claws</name>
+        <effect>Powers up moves that make direct contact.</effect>
+    </ability>
+    <ability id="182">
+        <name>Pixilate</name>
+        <effect>Normal-type moves become Fairy-type moves.</effect>
+    </ability>
+    <ability id="183">
+        <name>Gooey</name>
+        <effect>Contact with the Pokémon lowers the attacker's Speed stat.</effect>
+    </ability>
+    <ability id="184">
+        <name>Aerilate</name>
+        <effect>Normal-type moves become Flying-type moves.</effect>
+    </ability>
+    <ability id="185">
+        <name>Parental Bond</name>
+        <effect>Parent and child attack together.</effect>
+    </ability>
+    <ability id="186">
+        <name>Dark Aura</name>
+        <effect>Powers up each Pokémon's Dark-type moves.</effect>
+    </ability>
+    <ability id="187">
+        <name>Fairy Aura</name>
+        <effect>Powers up each Pokémon's Fairy-type moves.</effect>
+    </ability>
+    <ability id="188">
+        <name>Aura Break</name>
+        <effect>The effects of "Aura" Abilities are reversed.</effect>
+    </ability>
+    <ability id="189">
+        <name>Primordial Sea</name>
+        <effect>Affects weather and nullifies any Fire-type attacks.</effect>
+    </ability>
+    <ability id="190">
+        <name>Desolate Land</name>
+        <effect>Affects weather and nullifies any Water-type attacks.</effect>
+    </ability>
+    <ability id="191">
+        <name>Delta Stream</name>
+        <effect>Affects weather and eliminates all of the Flying type's weaknesses.</effect>
+    </ability>
 </abilities>

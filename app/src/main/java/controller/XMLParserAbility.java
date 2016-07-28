@@ -6,7 +6,9 @@ import org.xmlpull.v1.XmlPullParserFactory;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import model.Ability;
@@ -31,7 +33,7 @@ public class XMLParserAbility {
             this.parser.setInput(is, null);
     }
 
-    public void parseXML() throws XmlPullParserException, IOException {
+    public void parseXML(short[] id) throws XmlPullParserException, IOException {
         int event = this.parser.getEventType();
 
         while (event != XmlPullParser.END_DOCUMENT) {
@@ -41,7 +43,20 @@ public class XMLParserAbility {
                 case XmlPullParser.START_TAG:
                     if(name.equals("ability")) {
                         this.ability = new Ability();
-                        this.ability.setId(Short.parseShort(this.parser.getAttributeValue(null, "id")));
+                        short tempID = Short.parseShort(this.parser.getAttributeValue(null, "id"));
+                        boolean contain = false;
+                        for(short i: id) {
+                            if(i == tempID) {
+                                contain = true;
+                                break;
+                            }
+                        }
+                        if(contain) {
+                            this.ability.setId(tempID);
+                        } else {
+                            this.ability = null;
+                            break;
+                        }
                     } else if (this.ability != null) {
                         if(name.equals("name")) {
                             this.ability.setName(this.parser.nextText());

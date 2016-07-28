@@ -1,4 +1,4 @@
-package com.example.dinoslayer.pokemon_calculataor;
+package com.example.dinoslayer.pokemonCalculator;
 
 import org.junit.Test;
 

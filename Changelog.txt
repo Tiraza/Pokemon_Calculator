@@ -1,6 +1,6 @@
 PROJECT : Pokemon Calculator
 AUTHOR : TheDinoSlayer
-CURRENT VERSION : V 0.1.1
+CURRENT VERSION : V 0.1.2
 
 V 0.0.1 :
 14/07/2016
@@ -17,10 +17,16 @@ V 0.1.1 :
 - Create Ability-XML file
 - Create Ability-XML-parser class
 - Test this parser class :
-    - WORKS
+    - All abilities are displayed
+
+V 0.1.2 :
+28/07/2016
+- Complete Ability-XML file
+- Now, we can have the abilities that we want to get by sending Ability's id in parameters
+- Test the last implementation :
+    - Abilities with the correct id what we want are displayed
+    - Abilities with a unknown id are ignored
 
 TODO :
-- Complete Ability-XML file
-- Complete the Ability-parser class to get id what we want
-- Create data-xml files
+- Create data-xml files (Attack, Pokémon)
 - Create controllers classes to parse xml files into models classes

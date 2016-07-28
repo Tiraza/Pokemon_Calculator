@@ -1,4 +1,4 @@
-package com.example.dinoslayer.pokemon_calculataor;
+package com.example.dinoslayer.pokemonCalculator;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

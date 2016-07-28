@@ -5,7 +5,7 @@ android {
     buildToolsVersion "24.0.0"
 
     defaultConfig {
-        applicationId "com.example.dinoslayer.pokemon_calculataor"
+        applicationId "com.example.dinoslayer.pokemonCalculator"
         minSdkVersion 10
         targetSdkVersion 24
         versionCode 1

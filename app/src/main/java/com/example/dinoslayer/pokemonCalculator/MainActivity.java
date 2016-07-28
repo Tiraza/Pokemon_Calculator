@@ -1,4 +1,4 @@
-package com.example.dinoslayer.pokemon_calculataor;
+package com.example.dinoslayer.pokemonCalculator;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -23,14 +23,17 @@ public class MainActivity extends AppCompatActivity {
             InputStream is = getApplicationContext().getAssets().open("data/ability.xml");
 
             XMLParserAbility parserAbility = new XMLParserAbility(is);
-            parserAbility.parseXML();
+            short []id = new short[2];
+            id[0] = 195;
+            id[1] = 34;
+            parserAbility.parseXML(id);
 
             for (Ability a : parserAbility.getAbilities()) {
                 String content = "";
 
-                content += "id : " + a.getId() + "\n";
-                content += "name : " + a.getName() + "\n";
-                content += "effect : " + a.getEffect() + "\n";
+                content += "ID : " + a.getId() + "\n";
+                content += "Name : " + a.getName() + "\n";
+                content += "Effect : " + a.getEffect() + "\n\n";
 
                 display.setText(display.getText() + content);
             }
