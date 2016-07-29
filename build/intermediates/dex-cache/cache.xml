@@ -2,17 +2,10 @@
 <items version="2" >
 
     <item
-        jar="F:\Documents\Programmation\Pokemon_Calculator\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="F:\Documents\Programmation\Pokemon_Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_46ae9033e07741931fed824cc27201301ff25f58\classes.dex" />
-    </item>
-    <item
         jar="F:\Documents\Programmation\Pokemon_Calculator\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="24.0.0"
-        sha1="5f3d9b67a684cf28c5f3bf9676a3296b34363ddb">
+        sha1="faea804834ae60659dc1a76fa6b15feb4c5e8b26">
         <dex dex="F:\Documents\Programmation\Pokemon_Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_52e4c7820cfb9369671c0b1cd803cd367db03a22\classes.dex" />
     </item>
     <item
@@ -30,6 +23,20 @@
         <dex dex="F:\Documents\Programmation\Pokemon_Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.0.0_c392ac6abf9bb565b43f5a69827d9e346da666ee\classes.dex" />
     </item>
     <item
+        jar="F:\Documents\Programmation\Pokemon_Calculator\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="F:\Documents\Programmation\Pokemon_Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.0.0_b68b812a36fec281c44774cefc7e0ce1629a63e7\classes.dex" />
+    </item>
+    <item
+        jar="F:\Documents\Programmation\Pokemon_Calculator\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="F:\Documents\Programmation\Pokemon_Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_46ae9033e07741931fed824cc27201301ff25f58\classes.dex" />
+    </item>
+    <item
         jar="F:\Documents\Programmation\Pokemon_Calculator\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
         jumboMode="true"
         revision="24.0.0"
@@ -40,15 +47,8 @@
         jar="F:\Documents\Programmation\Pokemon_Calculator\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.0"
-        sha1="e4243a8057487002f9c6e8da1f17df764ce159f7">
+        sha1="a6248cb4159ec69e4d01a706aa26052bd4ec02f3">
         <dex dex="F:\Documents\Programmation\Pokemon_Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a114279e2fe3a741540d1ff8ba88dc1347de8814\classes.dex" />
-    </item>
-    <item
-        jar="F:\Documents\Programmation\Pokemon_Calculator\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
-        <dex dex="F:\Documents\Programmation\Pokemon_Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.0.0_b68b812a36fec281c44774cefc7e0ce1629a63e7\classes.dex" />
     </item>
     <item
         jar="F:\Documents\Programmation\Pokemon_Calculator\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"

@@ -66,7 +66,7 @@ public class XMLParserAttack {
     private void parseType(String type) {
         switch (type) {
             case "Normal": this.attack.setType(Types.NORMAL); break;
-            case "Fight": this.attack.setType(Types.FIGHT); break;
+            case "Fighting": this.attack.setType(Types.FIGHT); break;
             case "Flying": this.attack.setType(Types.FLYING); break;
             case "Poison": this.attack.setType(Types.POISON); break;
             case "Ground": this.attack.setType(Types.GROUND); break;

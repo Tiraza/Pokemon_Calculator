@@ -13,6 +13,366 @@
         <power value="50"/>
         <category>Physical</category>
     </attack>
+    <attack id="3">
+        <name>Double Slap</name>
+        <type>Normal</type>
+        <power value="15"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="4">
+        <name>Comet Punch</name>
+        <type>Normal</type>
+        <power value="18"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="5">
+        <name>Mega Punch</name>
+        <type>Normal</type>
+        <power value="80"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="6">
+        <name>Pay Day</name>
+        <type>Normal</type>
+        <power value="40"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="7">
+        <name>Fire Punch</name>
+        <type>Fire</type>
+        <power value="75"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="8">
+        <name>Ice Punch</name>
+        <type>Ice</type>
+        <power value="75"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="9">
+        <name>Thunder Punch</name>
+        <type>Electric</type>
+        <power value="75"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="10">
+        <name>Scratch</name>
+        <type>Normal</type>
+        <power value="40"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="11">
+        <name>Vice Grip</name>
+        <type>Normal</type>
+        <power value="55"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="12">
+        <name>Guillotine</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="13">
+        <name>Razor Wind</name>
+        <type>Normal</type>
+        <power value="80"/>
+        <category>Special</category>
+    </attack>
+    <attack id="14">
+        <name>Sword Dance</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="15">
+        <name>Cut</name>
+        <type>Normal</type>
+        <power value="50"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="16">
+        <name>Gust</name>
+        <type>Flying</type>
+        <power value="40"/>
+        <category>Special</category>
+    </attack>
+    <attack id="17">
+        <name>Wing Attack</name>
+        <type>Flying</type>
+        <power value="60"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="18">
+        <name>Whirlwind</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="19">
+        <name>Fly</name>
+        <type>Flying</type>
+        <power value="90"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="20">
+        <name>Bind</name>
+        <type>Normal</type>
+        <power value="15"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="21">
+        <name>Slam</name>
+        <type>Normal</type>
+        <power value="80"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="22">
+        <name>Vine Whip</name>
+        <type>Grass</type>
+        <power value="45"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="23">
+        <name>Stomp</name>
+        <type>Normal</type>
+        <power value="65"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="24">
+        <name>Double Kick</name>
+        <type>Fighting</type>
+        <power value="30"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="25">
+        <name>Mega Kick</name>
+        <type>Normal</type>
+        <power value="120"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="26">
+        <name>Jump Kick</name>
+        <type>Fighting</type>
+        <power value="100"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="27">
+        <name>Rolling Kick</name>
+        <type>Fighting</type>
+        <power value="60"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="28">
+        <name>Sand Attack</name>
+        <type>Ground</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="29">
+        <name>Headbutt</name>
+        <type>Normal</type>
+        <power value="70"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="30">
+        <name>Horn Attack</name>
+        <type>Normal</type>
+        <power value="65"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="31">
+        <name>Fury Attack</name>
+        <type>Normal</type>
+        <power value="15"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="32">
+        <name>Horn Drill</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="33">
+        <name>Tackle</name>
+        <type>Normal</type>
+        <power value="50"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="34">
+        <name>Body Slam</name>
+        <type>Normal</type>
+        <power value="85"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="35">
+        <name>Wrap</name>
+        <type>Normal</type>
+        <power value="15"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="36">
+        <name>Take Down</name>
+        <type>Normal</type>
+        <power value="90"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="37">
+        <name>Thrash</name>
+        <type>Normal</type>
+        <power value="120"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="38">
+        <name>Double Edge</name>
+        <type>Normal</type>
+        <power value="120"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="39">
+        <name>Tail Whip</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="40">
+        <name>Poison Sting</name>
+        <type>Poison</type>
+        <power value="15"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="41">
+        <name>Twineedle</name>
+        <type>Bug</type>
+        <power value="25"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="42">
+        <name>Pin Missile</name>
+        <type>Bug</type>
+        <power value="25"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="43">
+        <name>Leer</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="44">
+        <name>Bite</name>
+        <type>Dark</type>
+        <power value="60"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="45">
+        <name>Growl</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="46">
+        <name>Roar</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="47">
+        <name>Sing</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="48">
+        <name>Supersonic</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="49">
+        <name>Sonic Boom</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="50">
+        <name>Disable</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="51">
+        <name>Acid</name>
+        <type>Poison</type>
+        <power value="40"/>
+        <category>Special</category>
+    </attack>
+    <attack id="52">
+        <name>Ember</name>
+        <type>Fire</type>
+        <power value="40"/>
+        <category>Special</category>
+    </attack>
+    <attack id="53">
+        <name>Flamethrower</name>
+        <type>Fire</type>
+        <power value="90"/>
+        <category>Special</category>
+    </attack>
+    <attack id="54">
+        <name>Mist</name>
+        <type>Ice</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="55">
+        <name>Water Gun</name>
+        <type>Water</type>
+        <power value="40"/>
+        <category>Special</category>
+    </attack>
+    <attack id="56">
+        <name>Hydro Pump</name>
+        <type>Water</type>
+        <power value="110"/>
+        <category>Special</category>
+    </attack>
+    <attack id="57">
+        <name>Surf</name>
+        <type>Water</type>
+        <power value="90"/>
+        <category>Special</category>
+    </attack>
+    <attack id="58">
+        <name>Ice Beam</name>
+        <type>Ice</type>
+        <power value="90"/>
+        <category>Special</category>
+    </attack>
+    <attack id="59">
+        <name>Blizzard</name>
+        <type>Ice</type>
+        <power value="110"/>
+        <category>Special</category>
+    </attack>
+    <attack id="60">
+        <name>Psybeam</name>
+        <type>Psychic</type>
+        <power value="65"/>
+        <category>Special</category>
+    </attack>
+    <attack id="61">
+        <name>Bubble Beam</name>
+        <type>Water</type>
+        <power value="65"/>
+        <category>Special</category>
+    </attack>
+    <attack id="62">
+        <name>Aurora Beam</name>
+        <type>Ice</type>
+        <power value="65"/>
+        <category>Special</category>
+    </attack>
     <attack id="63">
         <name>Hyper Beam</name>
         <type>Normal</type>
