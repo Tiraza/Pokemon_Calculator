@@ -379,4 +379,616 @@
         <power value="150"/>
         <category>Special</category>
     </attack>
+    <attack id="64">
+        <name>Peck</name>
+        <type>Flying</type>
+        <power value="35"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="65">
+        <name>Drill Peck</name>
+        <type>Flying</type>
+        <power value="80"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="66">
+        <name>Submission</name>
+        <type>Fighting</type>
+        <power value="80"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="67">
+        <name>Low Kick</name>
+        <type>Fighting</type>
+        <power value="0"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="68">
+        <name>Counter</name>
+        <type>Fighting</type>
+        <power value="0"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="69">
+        <name>Seismic Toss</name>
+        <type>Fighting</type>
+        <power value="0"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="70">
+        <name>Strength</name>
+        <type>Normal</type>
+        <power value="80"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="71">
+        <name>Absorb</name>
+        <type>Grass</type>
+        <power value="20"/>
+        <category>Special</category>
+    </attack>
+    <attack id="72">
+        <name>Mega Drain</name>
+        <type>Grass</type>
+        <power value="40"/>
+        <category>Special</category>
+    </attack>
+    <attack id="73">
+        <name>Leech Seed</name>
+        <type>Grass</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="74">
+        <name>Growth</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="75">
+        <name>Razor Leaf</name>
+        <type>Grass</type>
+        <power value="55"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="76">
+        <name>Solar Beam</name>
+        <type>Grass</type>
+        <power value="120"/>
+        <category>Special</category>
+    </attack>
+    <attack id="77">
+        <name>Poison Powder</name>
+        <type>Poison</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="78">
+        <name>Stun Spore</name>
+        <type>Grass</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="79">
+        <name>Sleep Powder</name>
+        <type>Grass</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="80">
+        <name>Petal Dance</name>
+        <type>Grass</type>
+        <power value="120"/>
+        <category>Special</category>
+    </attack>
+    <attack id="81">
+        <name>String Shot</name>
+        <type>Bug</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="82">
+        <name>Dragon Rage</name>
+        <type>Dragon</type>
+        <power value="0"/>
+        <category>Special</category>
+    </attack>
+    <attack id="83">
+        <name>Fire Spin</name>
+        <type>Fire</type>
+        <power value="35"/>
+        <category>Special</category>
+    </attack>
+    <attack id="84">
+        <name>Thunder Shock</name>
+        <type>Electric</type>
+        <power value="40"/>
+        <category>Special</category>
+    </attack>
+    <attack id="85">
+        <name>Thunderbolt</name>
+        <type>Electric</type>
+        <power value="90"/>
+        <category>Special</category>
+    </attack>
+    <attack id="86">
+        <name>Thunder Wave</name>
+        <type>Electric</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="87">
+        <name>Thunder</name>
+        <type>Electric</type>
+        <power value="110"/>
+        <category>Special</category>
+    </attack>
+    <attack id="88">
+        <name>Rock Throw</name>
+        <type>Rock</type>
+        <power value="50"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="89">
+        <name>Earthquake</name>
+        <type>Ground</type>
+        <power value="100"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="90">
+        <name>Fissure</name>
+        <type>Ground</type>
+        <power value="0"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="91">
+        <name>Dig</name>
+        <type>Ground</type>
+        <power value="80"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="92">
+        <name>Toxic</name>
+        <type>Poison</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="93">
+        <name>Confusion</name>
+        <type>Psychic</type>
+        <power value="50"/>
+        <category>Special</category>
+    </attack>
+    <attack id="94">
+        <name>Psychic</name>
+        <type>Psychic</type>
+        <power value="90"/>
+        <category>Special</category>
+    </attack>
+    <attack id="95">
+        <name>Hypnosis</name>
+        <type>Psychic</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="96">
+        <name>Meditate</name>
+        <type>Psychic</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="97">
+        <name>Agility</name>
+        <type>Psychic</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="98">
+        <name>Quick Attack</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="99">
+        <name>Rage</name>
+        <type>Normal</type>
+        <power value="20"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="100">
+        <name>Teleport</name>
+        <type>Psychic</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="101">
+        <name>Night Shade</name>
+        <type>Ghost</type>
+        <power value="0"/>
+        <category>Special</category>
+    </attack>
+    <attack id="102">
+        <name>Mimic</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="103">
+        <name>Screech</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="104">
+        <name>Double Team</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="105">
+        <name>Recover</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="106">
+        <name>Harden</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="107">
+        <name>Minimize</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="108">
+        <name>Smokescreen</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="109">
+        <name>Confuse Ray</name>
+        <type>Ghost</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="110">
+        <name>Withdraw</name>
+        <type>Water</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="111">
+        <name>Defense Curl</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="112">
+        <name>Barrier</name>
+        <type>Psychic</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="113">
+        <name>Light Screen</name>
+        <type>Psychic</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="114">
+        <name>Haze</name>
+        <type>Ice</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="115">
+        <name>Reflect</name>
+        <type>Psychic</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="116">
+        <name>Focus Energy</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="117">
+        <name>Bide</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="118">
+        <name>Metronome</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="119">
+        <name>Mirror Move</name>
+        <type>Flying</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="120">
+        <name>Self-Destruct</name>
+        <type>Normal</type>
+        <power value="200"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="121">
+        <name>Egg Bomb</name>
+        <type>Normal</type>
+        <power value="100"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="122">
+        <name>Lick</name>
+        <type>Ghost</type>
+        <power value="30"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="123">
+        <name>Smog</name>
+        <type>Poison</type>
+        <power value="30"/>
+        <category>Special</category>
+    </attack>
+    <attack id="124">
+        <name>Sludge</name>
+        <type>Poison</type>
+        <power value="65"/>
+        <category>Special</category>
+    </attack>
+    <attack id="125">
+        <name>Bone Club</name>
+        <type>Ground</type>
+        <power value="65"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="126">
+        <name>Fire Blast</name>
+        <type>Fire</type>
+        <power value="110"/>
+        <category>Special</category>
+    </attack>
+    <attack id="127">
+        <name>Waterfall</name>
+        <type>Water</type>
+        <power value="80"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="128">
+        <name>Clamp</name>
+        <type>Water</type>
+        <power value="35"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="129">
+        <name>Swift</name>
+        <type>Normal</type>
+        <power value="60"/>
+        <category>Special</category>
+    </attack>
+    <attack id="130">
+        <name>Skull Bash</name>
+        <type>Normal</type>
+        <power value="130"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="131">
+        <name>Spike Cannon</name>
+        <type>Normal</type>
+        <power value="20"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="132">
+        <name>Constrict</name>
+        <type>Normal</type>
+        <power value="10"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="133">
+        <name>Amnesia</name>
+        <type>Psychic</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="134">
+        <name>Kinesis</name>
+        <type>Psychic</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="135">
+        <name>Soft-Boiled</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="136">
+        <name>High Jump Kick</name>
+        <type>Fighting</type>
+        <power value="130"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="137">
+        <name>Glare</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="138">
+        <name>Dream Eater</name>
+        <type>Psychic</type>
+        <power value="100"/>
+        <category>Special</category>
+    </attack>
+    <attack id="139">
+        <name>Poison Gas</name>
+        <type>Poison</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="140">
+        <name>Barrage</name>
+        <type>Normal</type>
+        <power value="15"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="141">
+        <name>Leech Life</name>
+        <type>Bug</type>
+        <power value="20"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="142">
+        <name>Lovely Kiss</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="143">
+        <name>Sky Attack</name>
+        <type>Flying</type>
+        <power value="140"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="144">
+        <name>Transform</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="145">
+        <name>Bubble</name>
+        <type>Water</type>
+        <power value="40"/>
+        <category>Special</category>
+    </attack>
+    <attack id="146">
+        <name>Dizzy Punch</name>
+        <type>Normal</type>
+        <power value="70"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="147">
+        <name>Spore</name>
+        <type>Grass</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="148">
+        <name>Flash</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="149">
+        <name>Psywave</name>
+        <type>Psychic</type>
+        <power value="0"/>
+        <category>Special</category>
+    </attack>
+    <attack id="150">
+        <name>Splash</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="151">
+        <name>Acid Armor</name>
+        <type>Poison</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="152">
+        <name>Crabhammer</name>
+        <type>Water</type>
+        <power value="100"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="153">
+        <name>Explosion</name>
+        <type>Normal</type>
+        <power value="250"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="154">
+        <name>Fury Swipes</name>
+        <type>Normal</type>
+        <power value="18"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="155">
+        <name>Bonemerang</name>
+        <type>Ground</type>
+        <power value="50"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="156">
+        <name>Rest</name>
+        <type>Psychic</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="157">
+        <name>Rock Slide</name>
+        <type>Rock</type>
+        <power value="75"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="158">
+        <name>Hyper Fang</name>
+        <type>Normal</type>
+        <power value="80"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="159">
+        <name>Sharpen</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="160">
+        <name>Conversion</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="161">
+        <name>Tri Attack</name>
+        <type>Normal</type>
+        <power value="80"/>
+        <category>Special</category>
+    </attack>
+    <attack id="162">
+        <name>Super Fang</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="163">
+        <name>Slash</name>
+        <type>Normal</type>
+        <power value="70"/>
+        <category>Physical</category>
+    </attack>
+    <attack id="164">
+        <name>Substitute</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </attack>
+    <attack id="165">
+        <name>Struggle</name>
+        <type>Normal</type>
+        <power value="50"/>
+        <category>Physical</category>
+    </attack>
 </attacks>

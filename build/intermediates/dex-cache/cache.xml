@@ -5,7 +5,7 @@
         jar="F:\Documents\Programmation\Pokemon_Calculator\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="24.0.0"
-        sha1="faea804834ae60659dc1a76fa6b15feb4c5e8b26">
+        sha1="2ca932535970413bffd9374180e177736f914426">
         <dex dex="F:\Documents\Programmation\Pokemon_Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_52e4c7820cfb9369671c0b1cd803cd367db03a22\classes.dex" />
     </item>
     <item
@@ -47,7 +47,7 @@
         jar="F:\Documents\Programmation\Pokemon_Calculator\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.0"
-        sha1="a6248cb4159ec69e4d01a706aa26052bd4ec02f3">
+        sha1="5ad7822234c1443c3c5e31252c2e36d40ddd57d4">
         <dex dex="F:\Documents\Programmation\Pokemon_Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a114279e2fe3a741540d1ff8ba88dc1347de8814\classes.dex" />
     </item>
     <item
