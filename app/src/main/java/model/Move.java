@@ -3,7 +3,7 @@ package model;
 /**
  * Created by TheDinoSlayer on 10/07/2016.
  */
-public class Attack {
+public class Move {
     //Attributes
     private short id;
     private String name;
@@ -12,7 +12,7 @@ public class Attack {
     private Category category;
 
     //Constructor
-    public Attack() {
+    public Move() {
         this.id = 0;
         this.name = "<No Move>";
         this.type = Types.NORMAL;
@@ -20,7 +20,7 @@ public class Attack {
         this.category = Category.PHYSICAL;
     }
 
-    public Attack(short id, String name, Types type, Byte power, Category category) {
+    public Move(short id, String name, Types type, Byte power, Category category) {
         this.id = id;
         this.name = name;
         this.type = type;

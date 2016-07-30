@@ -13,7 +13,7 @@ public class Pokemon {
     private byte level;
 
     private Ability []abilities = new Ability[3];
-    private List<Attack> attackList;
+    private List<Move> moveList;
 
     private float height;
     private float weight;
@@ -51,7 +51,7 @@ public class Pokemon {
     public Nature getNature() { return this.nature; }
     public byte getLevel() { return this.level; }
     public Ability[] getAbilities() { return this.abilities; }
-    public List<Attack> getAttackList() { return this.attackList; }
+    public List<Move> getMoveList() { return this.moveList; }
 
     public float getHeight() { return this.height; }
     public float getWeight() { return this.weight; }
@@ -119,7 +119,7 @@ public class Pokemon {
     public void setNature(Nature nature) {this.nature = nature; }
     public void setLevel(byte level) { if(level >= 1 && level <= 100) this.level = level; }
     public void setAbilities(Ability[] abilities) {this.abilities = abilities; }
-    public void setAttackList(List<Attack> attackList) { this.attackList = attackList; }
+    public void setMoveList(List<Move> moveList) { this.moveList = moveList; }
     public void setHeight(float height) { this.height = height; }
     public void setWeight(float weight) { this.weight = weight; }
 

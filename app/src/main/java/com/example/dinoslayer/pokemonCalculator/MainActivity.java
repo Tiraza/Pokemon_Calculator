@@ -8,9 +8,9 @@ import android.widget.TextView;
 import java.io.InputStream;
 
 //import controller.XMLParserAbility;
-import controller.XMLParserAttack;
+import controller.XMLParserMove;
 //import model.Ability;
-import model.Attack;
+import model.Move;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,12 +22,12 @@ public class MainActivity extends AppCompatActivity {
         display.setMovementMethod(new ScrollingMovementMethod());
 
         try {
-            InputStream is = getApplicationContext().getAssets().open("data/attack.xml");
+            InputStream is = getApplicationContext().getAssets().open("data/move.xml");
 
-            XMLParserAttack parserAttack = new XMLParserAttack(is);
+            XMLParserMove parserAttack = new XMLParserMove(is);
             parserAttack.parseXML();
 
-            for (Attack a : parserAttack.getAttacks()) {
+            for (Move a : parserAttack.getMoves()) {
                 String content = "";
 
                 content += "ID : " + a.getId() + "\n";
