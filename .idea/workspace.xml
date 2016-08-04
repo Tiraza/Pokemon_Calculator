@@ -86,8 +86,8 @@
       <file leaf-file-name="move.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/assets/data/move.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-39.726463">
-              <caret line="244" column="14" selection-start-line="244" selection-start-column="14" selection-end-line="244" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.870229">
+              <caret line="2799" column="8" selection-start-line="2799" selection-start-column="8" selection-end-line="2799" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -1717,8 +1717,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="273" />
-    <option name="y" value="41" />
+    <option name="x" value="467" />
+    <option name="y" value="28" />
     <option name="width" value="1400" />
     <option name="height" value="998" />
   </component>
@@ -1776,10 +1776,10 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2080,7 +2080,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="273" y="41" width="1400" height="998" extended-state="0" />
+    <frame x="467" y="28" width="1400" height="998" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.49701494" order="6" side_tool="false" content_ui="tabs" />
@@ -2504,8 +2504,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/data/move.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-39.726463">
-          <caret line="244" column="14" selection-start-line="244" selection-start-column="14" selection-end-line="244" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.870229">
+          <caret line="2799" column="8" selection-start-line="2799" selection-start-column="8" selection-end-line="2799" selection-end-column="8" />
           <folding />
         </state>
       </provider>

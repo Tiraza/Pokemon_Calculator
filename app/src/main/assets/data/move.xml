@@ -2119,4 +2119,682 @@
         <power value="140"/>
         <category>Special</category>
     </move>
+    <move id="355">
+        <name>Roost</name>
+        <type>Flying</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="356">
+        <name>Gravity</name>
+        <type>Psychic</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="357">
+        <name>Miracle Eye</name>
+        <type>Psychic</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="358">
+        <name>Wake-Up Slap</name>
+        <type>Fighting</type>
+        <power value="70"/>
+        <category>Physical</category>
+    </move>
+    <move id="359">
+        <name>Hammer Arm</name>
+        <type>Fighting</type>
+        <power value="100"/>
+        <category>Physical</category>
+    </move>
+    <move id="360">
+        <name>Gyro Ball</name>
+        <type>Steel</type>
+        <power value="0"/>
+        <category>Physical</category>
+    </move>
+    <move id="361">
+        <name>Healing Wish</name>
+        <type>Psychic</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="362">
+        <name>Brine</name>
+        <type>Water</type>
+        <power value="65"/>
+        <category>Special</category>
+    </move>
+    <move id="363">
+        <name>Natural Gift</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Physical</category>
+    </move>
+    <move id="364">
+        <name>Feint</name>
+        <type>Normal</type>
+        <power value="30"/>
+        <category>Physical</category>
+    </move>
+    <move id="365">
+        <name>Pluck</name>
+        <type>Flying</type>
+        <power value="60"/>
+        <category>Physical</category>
+    </move>
+    <move id="366">
+        <name>Tailwind</name>
+        <type>Flying</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="367">
+        <name>Acupressure</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="368">
+        <name>Metal Burst</name>
+        <type>Steel</type>
+        <power value="0"/>
+        <category>Physical</category>
+    </move>
+    <move id="369">
+        <name>U-turn</name>
+        <type>Bug</type>
+        <power value="70"/>
+        <category>Physical</category>
+    </move>
+    <move id="370">
+        <name>Close Combat</name>
+        <type>Fighting</type>
+        <power value="120"/>
+        <category>Physical</category>
+    </move>
+    <move id="371">
+        <name>Payback</name>
+        <type>Dark</type>
+        <power value="50"/>
+        <category>Physical</category>
+    </move>
+    <move id="372">
+        <name>Assurance</name>
+        <type>Dark</type>
+        <power value="60"/>
+        <category>Physical</category>
+    </move>
+    <move id="373">
+        <name>Embargo</name>
+        <type>Dark</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="374">
+        <name>Fling</name>
+        <type>Dark</type>
+        <power value="0"/>
+        <category>Physical</category>
+    </move>
+    <move id="375">
+        <name>Psycho Shift</name>
+        <type>Psychic</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="376">
+        <name>Trump Card</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Special</category>
+    </move>
+    <move id="377">
+        <name>Heal Block</name>
+        <type>Psychic</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="378">
+        <name>Wring Out</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Special</category>
+    </move>
+    <move id="379">
+        <name>Power Trick</name>
+        <type>Psychic</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="380">
+        <name>Gastro Acid</name>
+        <type>Poison</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="381">
+        <name>Lucky Chant</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="382">
+        <name>Me First</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="383">
+        <name>Copycat</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="384">
+        <name>Power Swap</name>
+        <type>Psychic</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="385">
+        <name>Guard Swap</name>
+        <type>Psychic</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="386">
+        <name>Punishment</name>
+        <type>Dark</type>
+        <power value="0"/>
+        <category>Physical</category>
+    </move>
+    <move id="387">
+        <name>Last Resort</name>
+        <type>Normal</type>
+        <power value="140"/>
+        <category>Physical</category>
+    </move>
+    <move id="388">
+        <name>Worry Seed</name>
+        <type>Grass</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="389">
+        <name>Sucker Punch</name>
+        <type>Dark</type>
+        <power value="80"/>
+        <category>Physical</category>
+    </move>
+    <move id="390">
+        <name>Toxic Spikes</name>
+        <type>Poison</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="391">
+        <name>Heart Swap</name>
+        <type>Psychic</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="392">
+        <name>Aqua Ring</name>
+        <type>Water</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="393">
+        <name>Magnet Rise</name>
+        <type>Electric</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="394">
+        <name>Flare Blitz</name>
+        <type>Fire</type>
+        <power value="120"/>
+        <category>Physical</category>
+    </move>
+    <move id="395">
+        <name>Force Palm</name>
+        <type>Fighting</type>
+        <power value="60"/>
+        <category>Physical</category>
+    </move>
+    <move id="396">
+        <name>Aura Sphere</name>
+        <type>Fighting</type>
+        <power value="80"/>
+        <category>Special</category>
+    </move>
+    <move id="397">
+        <name>Rock Polish</name>
+        <type>Rock</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="398">
+        <name>Poison Jab</name>
+        <type>Poison</type>
+        <power value="80"/>
+        <category>Physical</category>
+    </move>
+    <move id="399">
+        <name>Dark Pulse</name>
+        <type>Dark</type>
+        <power value="80"/>
+        <category>Special</category>
+    </move>
+    <move id="400">
+        <name>Night Slash</name>
+        <type>Dark</type>
+        <power value="80"/>
+        <category>Special</category>
+    </move>
+    <move id="401">
+        <name>Aqua Tail</name>
+        <type>Water</type>
+        <power value="90"/>
+        <category>Physical</category>
+    </move>
+    <move id="402">
+        <name>Seed Bomb</name>
+        <type>Grass</type>
+        <power value="80"/>
+        <category>Physical</category>
+    </move>
+    <move id="403">
+        <name>Air Slash</name>
+        <type>Flying</type>
+        <power value="75"/>
+        <category>Special</category>
+    </move>
+    <move id="404">
+        <name>X-Scissor</name>
+        <type>Bug</type>
+        <power value="80"/>
+        <category>Physical</category>
+    </move>
+    <move id="405">
+        <name>Bug Buzz</name>
+        <type>Bug</type>
+        <power value="90"/>
+        <category>Special</category>
+    </move>
+    <move id="406">
+        <name>Dragon Pulse</name>
+        <type>Dragon</type>
+        <power value="85"/>
+        <category>Special</category>
+    </move>
+    <move id="407">
+        <name>Dragon Rush</name>
+        <type>Dragon</type>
+        <power value="100"/>
+        <category>Physical</category>
+    </move>
+    <move id="408">
+        <name>Power Gem</name>
+        <type>Rock</type>
+        <power value="80"/>
+        <category>Special</category>
+    </move>
+    <move id="409">
+        <name>Drain Punch</name>
+        <type>Fighting</type>
+        <power value="75"/>
+        <category>Physical</category>
+    </move>
+    <move id="410">
+        <name>Vacuum Wave</name>
+        <type>Fighting</type>
+        <power value="40"/>
+        <category>Special</category>
+    </move>
+    <move id="411">
+        <name>Focus Blast</name>
+        <type>Fighting</type>
+        <power value="120"/>
+        <category>Special</category>
+    </move>
+    <move id="412">
+        <name>Energy Ball</name>
+        <type>Grass</type>
+        <power value="90"/>
+        <category>Special</category>
+    </move>
+    <move id="413">
+        <name>Brave Bird</name>
+        <type>Flying</type>
+        <power value="120"/>
+        <category>Physical</category>
+    </move>
+    <move id="414">
+        <name>Earth Power</name>
+        <type>Ground</type>
+        <power value="90"/>
+        <category>Special</category>
+    </move>
+    <move id="415">
+        <name>Switcheroo</name>
+        <type>Dark</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="416">
+        <name>Giga Impact</name>
+        <type>Normal</type>
+        <power value="150"/>
+        <category>Physical</category>
+    </move>
+    <move id="417">
+        <name>Nasty Plot</name>
+        <type>Dark</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="418">
+        <name>Bullet Punch</name>
+        <type>Steel</type>
+        <power value="40"/>
+        <category>Physical</category>
+    </move>
+    <move id="419">
+        <name>Avalanche</name>
+        <type>Ice</type>
+        <power value="60"/>
+        <category>Physical</category>
+    </move>
+    <move id="420">
+        <name>Ice Shard</name>
+        <type>Ice</type>
+        <power value="40"/>
+        <category>Physical</category>
+    </move>
+    <move id="421">
+        <name>Shadow Claw</name>
+        <type>Ghost</type>
+        <power value="70"/>
+        <category>Physical</category>
+    </move>
+    <move id="422">
+        <name>Thunder Fang</name>
+        <type>Electric</type>
+        <power value="65"/>
+        <category>Physical</category>
+    </move>
+    <move id="423">
+        <name>Ice Fang</name>
+        <type>Ice</type>
+        <power value="65"/>
+        <category>Physical</category>
+    </move>
+    <move id="424">
+        <name>Fire Fang</name>
+        <type>Fire</type>
+        <power value="65"/>
+        <category>Physical</category>
+    </move>
+    <move id="425">
+        <name>Shadow Sneak</name>
+        <type>Ghost</type>
+        <power value="40"/>
+        <category>Physical</category>
+    </move>
+    <move id="426">
+        <name>Mud Bomb</name>
+        <type>Ground</type>
+        <power value="65"/>
+        <category>Special</category>
+    </move>
+    <move id="427">
+        <name>Psycho Cut</name>
+        <type>Psychic</type>
+        <power value="70"/>
+        <category>Physical</category>
+    </move>
+    <move id="428">
+        <name>Zen Headbutt</name>
+        <type>Psychic</type>
+        <power value="80"/>
+        <category>Physical</category>
+    </move>
+    <move id="429">
+        <name>Mirror Shot</name>
+        <type>Steel</type>
+        <power value="65"/>
+        <category>Special</category>
+    </move>
+    <move id="430">
+        <name>Flash Cannon</name>
+        <type>Steel</type>
+        <power value="80"/>
+        <category>Special</category>
+    </move>
+    <move id="431">
+        <name>Rock Climb</name>
+        <type>Normal</type>
+        <power value="90"/>
+        <category>Physical</category>
+    </move>
+    <move id="432">
+        <name>Defog</name>
+        <type>Flying</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="433">
+        <name>Trick Room</name>
+        <type>Psychic</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="434">
+        <name>Draco Meteor</name>
+        <type>Dragon</type>
+        <power value="130"/>
+        <category>Special</category>
+    </move>
+    <move id="435">
+        <name>Discharge</name>
+        <type>Electric</type>
+        <power value="80"/>
+        <category>Special</category>
+    </move>
+    <move id="436">
+        <name>Lava Plume</name>
+        <type>Fire</type>
+        <power value="80"/>
+        <category>Special</category>
+    </move>
+    <move id="437">
+        <name>Leaf Storm</name>
+        <type>Grass</type>
+        <power value="130"/>
+        <category>Special</category>
+    </move>
+    <move id="438">
+        <name>Power Whip</name>
+        <type>Grass</type>
+        <power value="120"/>
+        <category>Physical</category>
+    </move>
+    <move id="439">
+        <name>Rock Wrecker</name>
+        <type>Rock</type>
+        <power value="150"/>
+        <category>Physical</category>
+    </move>
+    <move id="440">
+        <name>Cross Poison</name>
+        <type>Poison</type>
+        <power value="70"/>
+        <category>Physical</category>
+    </move>
+    <move id="441">
+        <name>Gunk Shot</name>
+        <type>Poison</type>
+        <power value="120"/>
+        <category>Physical</category>
+    </move>
+    <move id="442">
+        <name>Iron Head</name>
+        <type>Steel</type>
+        <power value="80"/>
+        <category>Physical</category>
+    </move>
+    <move id="443">
+        <name>Magnet Bomb</name>
+        <type>Steel</type>
+        <power value="60"/>
+        <category>Physical</category>
+    </move>
+    <move id="444">
+        <name>Stone Edge</name>
+        <type>Rock</type>
+        <power value="100"/>
+        <category>Physical</category>
+    </move>
+    <move id="445">
+        <name>Captivate</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="446">
+        <name>Stealth Rock</name>
+        <type>Rock</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="447">
+        <name>Grass Knot</name>
+        <type>Grass</type>
+        <power value="0"/>
+        <category>Special</category>
+    </move>
+    <move id="448">
+        <name>Chatter</name>
+        <type>Flying</type>
+        <power value="65"/>
+        <category>Special</category>
+    </move>
+    <move id="449">
+        <name>Judgment</name>
+        <type>Normal</type>
+        <power value="100"/>
+        <category>Special</category>
+    </move>
+    <move id="450">
+        <name>Bug Bite</name>
+        <type>Bug</type>
+        <power value="60"/>
+        <category>Physical</category>
+    </move>
+    <move id="451">
+        <name>Charge Beam</name>
+        <type>Electric</type>
+        <power value="50"/>
+        <category>Special</category>
+    </move>
+    <move id="452">
+        <name>Wood Hammer</name>
+        <type>Grass</type>
+        <power value="120"/>
+        <category>Physical</category>
+    </move>
+    <move id="453">
+        <name>Aqua Jet</name>
+        <type>Water</type>
+        <power value="40"/>
+        <category>Physical</category>
+    </move>
+    <move id="454">
+        <name>Attack Order</name>
+        <type>Bug</type>
+        <power value="90"/>
+        <category>Physical</category>
+    </move>
+    <move id="455">
+        <name>Defense Order</name>
+        <type>Bug</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="456">
+        <name>Heal Order</name>
+        <type>Bug</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="457">
+        <name>Head Smash</name>
+        <type>Rock</type>
+        <power value="150"/>
+        <category>Physical</category>
+    </move>
+    <move id="458">
+        <name>Double Hit</name>
+        <type>Normal</type>
+        <power value="35"/>
+        <category>Physical</category>
+    </move>
+    <move id="459">
+        <name>Roar of Time</name>
+        <type>Dragon</type>
+        <power value="150"/>
+        <category>Special</category>
+    </move>
+    <move id="460">
+        <name>Spacial Rend</name>
+        <type>Dragon</type>
+        <power value="100"/>
+        <category>Special</category>
+    </move>
+    <move id="461">
+        <name>Lunar Dance</name>
+        <type>Psychic</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="462">
+        <name>Crush Grip</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Physical</category>
+    </move>
+    <move id="463">
+        <name>Magma Storm</name>
+        <type>Fire</type>
+        <power value="100"/>
+        <category>Special</category>
+    </move>
+    <move id="464">
+        <name>Dark Void</name>
+        <type>Dark</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="465">
+        <name>Seed Flare</name>
+        <type>Grass</type>
+        <power value="120"/>
+        <category>Special</category>
+    </move>
+    <move id="466">
+        <name>Ominous Wind</name>
+        <type>Ghost</type>
+        <power value="60"/>
+        <category>Special</category>
+    </move>
+    <move id="467">
+        <name>Shadow Force</name>
+        <type>Ghost</type>
+        <power value="120"/>
+        <category>Physical</category>
+    </move>
 </moves>
