@@ -3349,4 +3349,376 @@
         <power value="100"/>
         <category>Physical</category>
     </move>
+    <move id="560">
+        <name>Flying Press</name>
+        <type>Fighting</type>
+        <power value="80"/>
+        <category>Physical</category>
+    </move>
+    <move id="561">
+        <name>Mat Block</name>
+        <type>Fighting</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="562">
+        <name>Belch</name>
+        <type>Poison</type>
+        <power value="120"/>
+        <category>Special</category>
+    </move>
+    <move id="563">
+        <name>Rototiller</name>
+        <type>Ground</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="564">
+        <name>Sticky Web</name>
+        <type>Bug</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="565">
+        <name>Fell Stinger</name>
+        <type>Bug</type>
+        <power value="30"/>
+        <category>Physical</category>
+    </move>
+    <move id="566">
+        <name>Phantom Force</name>
+        <type>Ghost</type>
+        <power value="90"/>
+        <category>Physical</category>
+    </move>
+    <move id="567">
+        <name>Trick-or-Treat</name>
+        <type>Ghost</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="568">
+        <name>Noble Roar</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="569">
+        <name>Ion Deluge</name>
+        <type>Electric</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="570">
+        <name>Parabolic Charge</name>
+        <type>Electric</type>
+        <power value="50"/>
+        <category>Special</category>
+    </move>
+    <move id="571">
+        <name>Forest's Curse</name>
+        <type>Grass</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="572">
+        <name>Petal Blizzard</name>
+        <type>Grass</type>
+        <power value="90"/>
+        <category>Physical</category>
+    </move>
+    <move id="573">
+        <name>Freeze-Dry</name>
+        <type>Ice</type>
+        <power value="70"/>
+        <category>Special</category>
+    </move>
+    <move id="574">
+        <name>Disarming Voice</name>
+        <type>Fairy</type>
+        <power value="40"/>
+        <category>Special</category>
+    </move>
+    <move id="575">
+        <name>Parting Shot</name>
+        <type>Dark</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="576">
+        <name>Topsy-Turvy</name>
+        <type>Dark</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="577">
+        <name>Draining Kiss</name>
+        <type>Fairy</type>
+        <power value="50"/>
+        <category>Special</category>
+    </move>
+    <move id="578">
+        <name>Crafty Shield</name>
+        <type>Fairy</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="579">
+        <name>Flower Shield</name>
+        <type>Fairy</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="580">
+        <name>Grassy Terrain</name>
+        <type>Grass</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="581">
+        <name>Misty Terrain</name>
+        <type>Fairy</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="582">
+        <name>Electrify</name>
+        <type>Electric</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="583">
+        <name>Play Rough</name>
+        <type>Fairy</type>
+        <power value="90"/>
+        <category>Physical</category>
+    </move>
+    <move id="584">
+        <name>Fairy Wind</name>
+        <type>Fairy</type>
+        <power value="40"/>
+        <category>Special</category>
+    </move>
+    <move id="585">
+        <name>Moonblast</name>
+        <type>Fairy</type>
+        <power value="95"/>
+        <category>Special</category>
+    </move>
+    <move id="586">
+        <name>Boomburst</name>
+        <type>Normal</type>
+        <power value="140"/>
+        <category>Special</category>
+    </move>
+    <move id="587">
+        <name>Fairy Lock</name>
+        <type>Fairy</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="588">
+        <name>King's Shield</name>
+        <type>Steel</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="589">
+        <name>Play Nice</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="590">
+        <name>Confide</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="591">
+        <name>Diamond Storm</name>
+        <type>Rock</type>
+        <power value="100"/>
+        <category>Physical</category>
+    </move>
+    <move id="592">
+        <name>Steam Eruption</name>
+        <type>Water</type>
+        <power value="110"/>
+        <category>Special</category>
+    </move>
+    <move id="593">
+        <name>Hyperspace Hole</name>
+        <type>Psychic</type>
+        <power value="80"/>
+        <category>Special</category>
+    </move>
+    <move id="594">
+        <name>Water Shuriken</name>
+        <type>Water</type>
+        <power value="15"/>
+        <category>Physical</category>
+    </move>
+    <move id="595">
+        <name>Mystical Fire</name>
+        <type>Fire</type>
+        <power value="65"/>
+        <category>Special</category>
+    </move>
+    <move id="596">
+        <name>Spiky Shield</name>
+        <type>Grass</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="597">
+        <name>Aromatic Mist</name>
+        <type>Fairy</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="598">
+        <name>Eerie Impulse</name>
+        <type>Electric</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="599">
+        <name>Venom Drench</name>
+        <type>Poison</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="600">
+        <name>Powder</name>
+        <type>Bug</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="601">
+        <name>Geomancy</name>
+        <type>Fairy</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="602">
+        <name>Magnetic Flux</name>
+        <type>Electric</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="603">
+        <name>Happy Hour</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="604">
+        <name>Electric Terrain</name>
+        <type>Electric</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="605">
+        <name>Dazzling Gleam</name>
+        <type>Fairy</type>
+        <power value="80"/>
+        <category>Special</category>
+    </move>
+    <move id="606">
+        <name>Celebrate</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="607">
+        <name>Hold Hands</name>
+        <type>Normal</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="608">
+        <name>Baby-Doll Eyes</name>
+        <type>Fairy</type>
+        <power value="0"/>
+        <category>Status</category>
+    </move>
+    <move id="609">
+        <name>Nuzzle</name>
+        <type>Electric</type>
+        <power value="20"/>
+        <category>Physical</category>
+    </move>
+    <move id="610">
+        <name>Hold Back</name>
+        <type>Normal</type>
+        <power value="40"/>
+        <category>Physical</category>
+    </move>
+    <move id="611">
+        <name>Infestation</name>
+        <type>Bug</type>
+        <power value="20"/>
+        <category>Special</category>
+    </move>
+    <move id="612">
+        <name>Power-Up Punch</name>
+        <type>Fighting</type>
+        <power value="40"/>
+        <category>Physical</category>
+    </move>
+    <move id="613">
+        <name>Oblivion Wing</name>
+        <type>Flying</type>
+        <power value="80"/>
+        <category>Special</category>
+    </move>
+    <move id="614">
+        <name>Thousand Arrows</name>
+        <type>Ground</type>
+        <power value="90"/>
+        <category>Physical</category>
+    </move>
+    <move id="615">
+        <name>Thousand Waves</name>
+        <type>Ground</type>
+        <power value="90"/>
+        <category>Physical</category>
+    </move>
+    <move id="616">
+        <name>Land's Wrath</name>
+        <type>Ground</type>
+        <power value="90"/>
+        <category>Physical</category>
+    </move>
+    <move id="617">
+        <name>Light of Ruin</name>
+        <type>Fairy</type>
+        <power value="140"/>
+        <category>Special</category>
+    </move>
+    <move id="618">
+        <name>Origin Pulse</name>
+        <type>Water</type>
+        <power value="110"/>
+        <category>Special</category>
+    </move>
+    <move id="619">
+        <name>Precipice Blades</name>
+        <type>Ground</type>
+        <power value="120"/>
+        <category>Physical</category>
+    </move>
+    <move id="620">
+        <name>Dragon Ascent</name>
+        <type>Flying</type>
+        <power value="120"/>
+        <category>Physical</category>
+    </move>
+    <move id="621">
+        <name>Hyperspace Fury</name>
+        <type>Dark</type>
+        <power value="100"/>
+        <category>Physical</category>
+    </move>
 </moves>
