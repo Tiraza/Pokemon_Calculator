@@ -29,12 +29,19 @@ V 0.1.2 :
 
 V 0.2.1 :
 28/07/2016
-- Create Attack-XML file
-- Create Attack-XML-parser class
+- Create Moves-XML file
+- Create Moves-XML-parser class
 - Test this parser class :
     - All attacks are displayed correctly
 
+V 0.2.2 :
+05/08/2016
+- Complete Moves-XML file
+- We can choose moves that we want by sending a list of ID.
+- Test the last implementation :
+    - Moves chosen in the list are correctly displayed
+
 TODO :
-- Complete Attack-XML file
 - Create data-xml files (Pokémon, Items)
+- Create Items-model class
 - Create controllers classes to parse xml files into models classes

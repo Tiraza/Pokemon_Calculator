@@ -25,7 +25,10 @@ public class MainActivity extends AppCompatActivity {
             InputStream is = getApplicationContext().getAssets().open("data/move.xml");
 
             XMLParserMove parserAttack = new XMLParserMove(is);
-            parserAttack.parseXML();
+            short[] id = new short[2];
+            id[0] = 55;
+            id[1] = 521;
+            parserAttack.parseXML(id);
 
             for (Move a : parserAttack.getMoves()) {
                 String content = "";

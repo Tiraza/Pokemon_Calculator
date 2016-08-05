@@ -29,7 +29,7 @@ public class XMLParserMove {
         this.parser.setInput(is, null);
     }
 
-    public void parseXML() throws XmlPullParserException, IOException {
+    public void parseXML(short[] id) throws XmlPullParserException, IOException {
         int event = this.parser.getEventType();
 
         while (event != XmlPullParser.END_DOCUMENT) {
@@ -39,7 +39,20 @@ public class XMLParserMove {
                 case XmlPullParser.START_TAG:
                     if (name.equals("move")) {
                         this.move = new Move();
-                        this.move.setId(Short.parseShort(this.parser.getAttributeValue(null, "id")));
+                        short tempID = Short.parseShort(this.parser.getAttributeValue(null, "id"));
+                        boolean contain = false;
+                        for(short i:id) {
+                            if(i == tempID) {
+                                contain = true;
+                                break;
+                            }
+                        }
+                        if(contain) {
+                            this.move.setId(tempID);
+                        } else {
+                            this.move = null;
+                            break;
+                        }
                     } else if(this.move != null) {
                         if(name.equals("name")) {
                             this.move.setName(this.parser.nextText());
