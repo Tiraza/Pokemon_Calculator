@@ -41,7 +41,15 @@ V 0.2.2 :
 - Test the last implementation :
     - Moves chosen in the list are correctly displayed
 
+V 0.3.1 :
+07/08/2016
+- Create Pokemon-XML file
+- Create Pokemon-XML-parser class
+- Test the parser :
+    - Pokemon data are correctly parsed
+
 TODO :
-- Create data-xml files (Pokémon, Items)
+- Create data-xml files (Items)
 - Create Items-model class
 - Create controllers classes to parse xml files into models classes
+- Create first view to display Pokémon data and implementing multiple forms (mega or alternative forms)
