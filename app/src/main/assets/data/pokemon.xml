@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<pokemons>
+    <pokemon id="1">
+        <name>Bulbasaur</name>
+        <types type1="Grass" type2="Poison"/>
+        <template height="0.7" weight="6.9"/>
+        <abilities f="65" s="" h="34"/>
+        <stats hp="45" atk="49" def="49" spa="65" spd="65" spe="45"/>
+    </pokemon>
+    <pokemon id="2">
+        <name>Ivysaur</name>
+        <types type1="Grass" type2="Poison"/>
+        <template height="1.0" weight="13.0"/>
+        <abilities f="65" s="" h="34"/>
+        <stats hp="60" atk="62" def="63" spa="80" spd="80" spe="60"/>
+    </pokemon>
+    <pokemon id="3">
+        <name>Venusaur</name>
+        <types type1="Grass" type2="Poison"/>
+        <template height="2.0" weight="100.0"/>
+        <abilities f="65" s="" h="34"/>
+        <stats hp="80" atk="82" def="83" spa="100" spd="100" spe="80"/>
+    </pokemon>
+    <pokemon id="3">
+        <name>Mega-Venusaur</name>
+        <types type1="Grass" type2="Poison"/>
+        <template height="2.4" weight="155.5"/>
+        <abilities f="47" s="" h=""/>
+        <stats hp="80" atk="100" def="123" spa="122" spd="120" spe="80"/>
+    </pokemon>
+    <pokemon id="4">
+        <name>Charmander</name>
+        <types type1="Fire" type2=""/>
+        <template height="0.6" weight="8.5"/>
+        <abilities f="66" s="" h="94"/>
+        <stats hp="39" atk="52" def="43" spa="60" spd="50" spe="65"/>
+    </pokemon>
+</pokemons>

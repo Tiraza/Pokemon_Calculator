@@ -1,5 +1,6 @@
 package model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -12,8 +13,8 @@ public class Pokemon {
     private Nature nature;
     private byte level;
 
-    private Ability []abilities = new Ability[3];
-    private List<Move> moveList;
+    private List<Ability> abilities;
+    private List<Move> moves;
 
     private float height;
     private float weight;
@@ -42,6 +43,9 @@ public class Pokemon {
         this.spa = 6;
         this.spd = 6;
         this.spe = 29;
+
+        this.abilities = new ArrayList<>();
+        this.moves = new ArrayList<>();
     }
 
     //getter
@@ -50,8 +54,8 @@ public class Pokemon {
     public Types[] getType() { return this.type; }
     public Nature getNature() { return this.nature; }
     public byte getLevel() { return this.level; }
-    public Ability[] getAbilities() { return this.abilities; }
-    public List<Move> getMoveList() { return this.moveList; }
+    public List<Ability> getAbilities() { return this.abilities; }
+    public List<Move> getMoveList() { return this.moves; }
 
     public float getHeight() { return this.height; }
     public float getWeight() { return this.weight; }
@@ -116,10 +120,11 @@ public class Pokemon {
     public void setId(short id) { this.id = id; }
     public void setName(String name) { this.name = name; }
     public void setType(Types[] type) { this.type = type; }
+    public void setType(int i, Types type) { this.type[i] = type; }
     public void setNature(Nature nature) {this.nature = nature; }
     public void setLevel(byte level) { if(level >= 1 && level <= 100) this.level = level; }
-    public void setAbilities(Ability[] abilities) {this.abilities = abilities; }
-    public void setMoveList(List<Move> moveList) { this.moveList = moveList; }
+    public void setAbilities(List<Ability> abilities) {this.abilities = abilities; }
+    public void setMoveList(List<Move> moveList) { this.moves = moveList; }
     public void setHeight(float height) { this.height = height; }
     public void setWeight(float weight) { this.weight = weight; }
 

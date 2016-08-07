@@ -21,7 +21,8 @@ public enum Types {
     ICE("Ice"),
     DRAGON("Dragon"),
     DARK("Dark"),
-    FAIRY("Fairy");
+    FAIRY("Fairy"),
+    UKNOWN("");
 
     private String display;
 

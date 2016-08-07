@@ -96,7 +96,7 @@ public class XMLParserMove {
             case "Dragon": this.move.setType(Types.DRAGON); break;
             case "Dark": this.move.setType(Types.DARK); break;
             case "Fairy": this.move.setType(Types.FAIRY); break;
-            default: break;
+            default: this.move.setType(Types.UKNOWN); break;
         }
     }
 

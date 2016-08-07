@@ -7,10 +7,9 @@ import android.widget.TextView;
 
 import java.io.InputStream;
 
-//import controller.XMLParserAbility;
-import controller.XMLParserMove;
-//import model.Ability;
-import model.Move;
+import controller.XMLParserPokemon;
+import model.Ability;
+import model.Pokemon;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,22 +21,29 @@ public class MainActivity extends AppCompatActivity {
         display.setMovementMethod(new ScrollingMovementMethod());
 
         try {
-            InputStream is = getApplicationContext().getAssets().open("data/move.xml");
+            InputStream is = getApplicationContext().getAssets().open("data/pokemon.xml");
 
-            XMLParserMove parserAttack = new XMLParserMove(is);
-            short[] id = new short[2];
-            id[0] = 55;
-            id[1] = 521;
-            parserAttack.parseXML(id);
+            XMLParserPokemon parserPokemon = new XMLParserPokemon(is, getApplicationContext());
+            parserPokemon.parseXML();
 
-            for (Move a : parserAttack.getMoves()) {
+            for (Pokemon p : parserPokemon.getPokemons()) {
                 String content = "";
 
-                content += "ID : " + a.getId() + "\n";
-                content += "Name : " + a.getName() + "\n";
-                content += "Type : " + a.getType().getDisplay() + "\n";
-                content += "Power : " + a.getPower() + "\n";
-                content += "Category : " + a.getCategory().getDisplay() + "\n\n";
+                content += "ID : " + p.getId() + "\n";
+                content += "Name : " + p.getName() + "\n";
+                content += "Type 1 : " + p.getType()[0].getDisplay() + "\n";
+                content += "Type 2 : " + p.getType()[1].getDisplay() + "\n";
+                content += "Height : " + p.getHeight() + " Weight : " + p.getWeight() + "\n";
+                content += "Ability : \n";
+                for(Ability a : p.getAbilities() ) {
+                    content += a.getName() + "\n";
+                }
+                content += "HP : " + p.getHP() + "\n";
+                content += "Attack : " + p.getAtk() + "\n";
+                content += "Defense : " + p.getDef() + "\n";
+                content += "Special Attack : " + p.getSpA() + "\n";
+                content += "Special Defense : " + p.getSpD() + "\n";
+                content += "Speed : " + p.getSpe() + "\n\n";
 
                 display.setText(display.getText() + content);
             }
