@@ -8,11 +8,12 @@ public enum Nature {
     BASHFUL("Bashful"),
     BOLD("Bold"),
     BRAVE("Brave"),
-    CALM("Calme"),
+    CALM("Calm"),
     CAREFUL("Careful"),
     DOCILE("Docile"),
     GENTLE("Gentle"),
     HARDY("Hardy"),
+    HASTY("Hasty"),
     IMPISH("Impish"),
     JOLLY("Jolly"),
     LAX("Lax"),
@@ -33,5 +34,5 @@ public enum Nature {
 
     Nature(String display) { this.display = display; }
 
-    public String getDisplay() {return this.display; }
+    @Override public String toString() {return this.display; }
 }

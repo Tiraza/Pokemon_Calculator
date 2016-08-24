@@ -48,8 +48,19 @@ V 0.3.1 :
 - Test the parser :
     - Pokemon data are correctly parsed
 
+V 0.3.2 :
+24/08/2016
+- Create first view to display pokémon's information
+- List of Pokémon are displayed in a spinner
+- Base Stats are displayed
+- Stats are displayed and calculated with the formula
+- Nature are displayed in a spinner
+
 TODO :
 - Create data-xml files (Items)
 - Create Items-model class
 - Create controllers classes to parse xml files into models classes
-- Create first view to display Pokémon data and implementing multiple forms (mega or alternative forms)
+- Implementing multiple forms (mega or alternative forms)
+- Change information with the selected Pokémon (stats, ability)
+- Change stats when IV or EV is modified.
+- Change stats when Nature is modified.
