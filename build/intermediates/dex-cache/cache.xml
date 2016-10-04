@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="db9910086383a26c83143fdbac5851771ff4f8ed">
+        sha1="9ea90f0b61995666acdd10b60d5aa34eb9fb3455">
         <dex dex="F:\Documents\Programmation\Pokemon_Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a114279e2fe3a741540d1ff8ba88dc1347de8814\classes.dex" />
     </item>
     <item
@@ -70,7 +70,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="bd1ad42c962720a4277fe02c43fc829dcf2ac64a">
+        sha1="68c0c6c10e58071763cf745691a80a4abad68275">
         <dex dex="F:\Documents\Programmation\Pokemon_Calculator\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_52e4c7820cfb9369671c0b1cd803cd367db03a22\classes.dex" />
     </item>
     <item

@@ -3,27 +3,20 @@ package controller;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
-import android.net.Uri;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.Selection;
 import android.text.TextWatcher;
-import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 
 import com.example.dinoslayer.pokemonCalculator.R;
-import com.google.android.gms.appindexing.Action;
-import com.google.android.gms.appindexing.AppIndex;
-import com.google.android.gms.common.api.GoogleApiClient;
-
 import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
 
-import exception.LevelException;
 import model.Nature;
 import model.Pokemon;
 import model.Status;
@@ -79,14 +72,11 @@ public class ControlPokemonData extends Activity {
 
             this.pokemon.setLevel(Byte.parseByte("100"));
             this.viewPokemonData.getEditLevel().setText(Byte.toString(this.pokemon.getLevel()));
-
             this.viewPokemonData.getEditLevel().addTextChangedListener(new TextWatcher() {
                 @Override public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
                 @Override public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
                 @Override
-                public void afterTextChanged(Editable editable) {
-                    editLevel(editable);
-                }
+                public void afterTextChanged(Editable editable) { editLevel(editable); }
             });
 
             this.viewPokemonData.getTextBSHP().setText(Integer.toString(this.pokemon.getHP()));
@@ -117,6 +107,57 @@ public class ControlPokemonData extends Activity {
             this.viewPokemonData.getSpinnerAbility().setAdapter(abilityAdapter);
 
             this.viewPokemonData.getSpinnerStatus().setAdapter(new ArrayAdapter<>(this, R.layout.array_adapter, Status.values()));
+
+            this.viewPokemonData.getEditIVHP().addTextChangedListener(new TextWatcher() {
+                @Override public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+                @Override public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+                @Override public void afterTextChanged(Editable editable) { editIV(editable, viewPokemonData.getEditIVHP(), Stats.HP);}});
+            this.viewPokemonData.getEditIVAtk().addTextChangedListener(new TextWatcher() {
+                @Override public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+                @Override public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+                @Override public void afterTextChanged(Editable editable) { editIV(editable, viewPokemonData.getEditIVAtk(), Stats.ATTACK);}});
+            this.viewPokemonData.getEditIVDef().addTextChangedListener(new TextWatcher() {
+                @Override public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+                @Override public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+                @Override public void afterTextChanged(Editable editable) { editIV(editable, viewPokemonData.getEditIVDef(), Stats.DEFENSE);}});
+            this.viewPokemonData.getEditIVSpa().addTextChangedListener(new TextWatcher() {
+                @Override public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+                @Override public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+                @Override public void afterTextChanged(Editable editable) {editIV(editable, viewPokemonData.getEditIVSpa(), Stats.SPATK);}});
+            this.viewPokemonData.getEditIVSpd().addTextChangedListener(new TextWatcher() {
+                @Override public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+                @Override public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+                @Override public void afterTextChanged(Editable editable) {editIV(editable, viewPokemonData.getEditIVSpd(), Stats.SPDEF);}});
+            this.viewPokemonData.getEditIVSpe().addTextChangedListener(new TextWatcher() {
+                @Override public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+                @Override public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+                @Override public void afterTextChanged(Editable editable) {editIV(editable, viewPokemonData.getEditIVSpe(), Stats.SPEED);}});
+
+            this.viewPokemonData.getEditEVHP().addTextChangedListener(new TextWatcher() {
+                @Override public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+                @Override public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+                @Override public void afterTextChanged(Editable editable) {editEV(editable, viewPokemonData.getEditEVHP(), Stats.HP);}});
+            this.viewPokemonData.getEditEVAtk().addTextChangedListener(new TextWatcher() {
+                @Override public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+                @Override public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+                @Override public void afterTextChanged(Editable editable) {editEV(editable, viewPokemonData.getEditEVAtk(), Stats.ATTACK);}});
+            this.viewPokemonData.getEditEVDef().addTextChangedListener(new TextWatcher() {
+                @Override public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+                @Override public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+                @Override public void afterTextChanged(Editable editable) {editEV(editable, viewPokemonData.getEditEVDef(), Stats.DEFENSE);}});
+            this.viewPokemonData.getEditEVSpa().addTextChangedListener(new TextWatcher() {
+                @Override public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+                @Override public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+                @Override public void afterTextChanged(Editable editable) {editEV(editable, viewPokemonData.getEditEVSpa(), Stats.SPATK);}});
+            this.viewPokemonData.getEditEVSpd().addTextChangedListener(new TextWatcher() {
+                @Override public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+                @Override public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+                @Override public void afterTextChanged(Editable editable) {editEV(editable, viewPokemonData.getEditEVSpd(), Stats.SPDEF);}});
+            this.viewPokemonData.getEditEVSpe().addTextChangedListener(new TextWatcher() {
+                @Override public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+                @Override public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+                @Override public void afterTextChanged(Editable editable) {editEV(editable, viewPokemonData.getEditEVSpe(), Stats.SPEED);}});
+
         } catch (IOException e) {
             catchException("Error to open file", e);
         } catch (XmlPullParserException e) {
@@ -136,7 +177,6 @@ public class ControlPokemonData extends Activity {
                         this.pokemon, Integer.parseInt(this.viewPokemonData.getEditIVAtk().getText().toString()), Integer.parseInt(this.viewPokemonData.getEditEVAtk().getText().toString())
                 )));
                 break;
-
             case DEFENSE:
                 this.viewPokemonData.getTextDef().setText(Integer.toString(new CalculationStats().calculateDef(
                         this.pokemon, Integer.parseInt(this.viewPokemonData.getEditIVDef().getText().toString()), Integer.parseInt(this.viewPokemonData.getEditEVDef().getText().toString())
@@ -161,8 +201,8 @@ public class ControlPokemonData extends Activity {
     }
 
     private void editLevel(Editable editable) {
-        if(editable.toString().isEmpty()) {
-            this.viewPokemonData.getEditLevel().setText("0");
+        if(editable.toString().isEmpty() || Integer.parseInt(editable.toString()) <= 0) {
+            this.viewPokemonData.getEditLevel().setText("1");
             Selection.setSelection(this.viewPokemonData.getEditLevel().getText(), this.viewPokemonData.getEditLevel().length());
         }  else if(Integer.parseInt(editable.toString()) > 100) {
            this.viewPokemonData.getEditLevel().setText("100");
@@ -174,6 +214,28 @@ public class ControlPokemonData extends Activity {
         editStats(Stats.SPATK);
         editStats(Stats.SPDEF);
         editStats(Stats.SPEED);
+    }
+
+    private void editIV(Editable editable, EditText IVText, Stats stats) {
+        if(editable.toString().isEmpty()) {
+            IVText.setText("0");
+            Selection.setSelection(IVText.getText(), IVText.length());
+        } else if(Integer.parseInt(editable.toString()) > 31) {
+            IVText.setText("31");
+            Selection.setSelection(IVText.getText(), IVText.length());
+        }
+        editStats(stats);
+    }
+
+    private void editEV(Editable editable, EditText EVText, Stats stats) {
+        if(editable.toString().isEmpty()) {
+            EVText.setText("0");
+            Selection.setSelection(EVText.getText(), EVText.length());
+        } else if(Integer.parseInt(editable.toString()) > 252) {
+            EVText.setText("252");
+            Selection.setSelection(EVText.getText(), EVText.length());
+        }
+        editStats(stats);
     }
 
     private void catchException(String title, Exception e) {
