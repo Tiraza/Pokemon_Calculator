@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Pokémon Calculator</string>
+    <string name="Type">Tipo</string>
+    <string name="Form">Forma</string>
+    <string name="Level">Level</string>
+    <string name="defaultLevel">100</string>
+    <string name="Base">Base</string>
+    <string name="IV">IV</string>
+    <string name="EV">EV</string>
+    <string name="HP">HP</string>
+    <string name="Atk">Ataque</string>
+    <string name="Def">Defesa</string>
+    <string name="Spa">Sp. Atq</string>
+    <string name="Spd">Sp. Def</string>
+    <string name="Spe">Velocidade</string>
+    <string-array name="stats">
+        <item>+6</item>
+        <item>+5</item>
+        <item>+4</item>
+        <item>+3</item>
+        <item>+2</item>
+        <item>+1</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>-3</item>
+        <item>-4</item>
+        <item>-5</item>
+        <item>-6</item>
+    </string-array>
+    <string name="defaultIV">31</string>
+    <string name="zero">0</string>
+    <string name="Nature">Natureza</string>
+    <string name="Ability">Abilidade</string>
+    <string name="Item">Item</string>
+    <string name="Status">Status</string>
+    <string name="CurrentHP">HP Atual</string>
+</resources>
